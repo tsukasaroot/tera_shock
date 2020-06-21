@@ -69,7 +69,7 @@ import tera.remotecontrol.handlers.ServerConsoleHandler;
 
 /**
  * Игровой сервер Tera-Online от команды STera.
- * 
+ *
  * @author Ronn
  */
 public class GameServer extends ServerThread implements DeadLockListener

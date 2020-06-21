@@ -13,7 +13,7 @@
 	<!-- минимальный уровень доступа для входа в мир (0) -->
 	<set name="WORLD_MIN_ACCESS_LEVEL" value="0" />
 	<!-- максимальный уровень игрока (60) -->
-	<set name="WORLD_PLAYER_MAX_LEVEL" value="60" />
+	<set name="WORLD_PLAYER_MAX_LEVEL" value="65" />
 	<!-- через сколько успешных атак уменьшать кол-во сердечек (13) -->
 	<set name="WORLD_PLAYER_THRESHOLD_ATTACKS" value="23" />
 	<!-- через сколько успешных отражений атак уменьшать кол-во сердечек (12) -->

@@ -4,7 +4,7 @@ import tera.Config;
 
 /**
  * Таблица левел - экспа
- * 
+ *
  * @author Ronn
  */
 public abstract class Experience {
@@ -73,6 +73,7 @@ public abstract class Experience {
 		151558828,
 		264049598,
 		449513049,
+		649513049,
 	};
 
 	public static int getMaxLevel() {

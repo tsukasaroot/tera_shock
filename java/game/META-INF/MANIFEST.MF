@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
 Main-Class: tera.gameserver.GameServer
+Class-Path: C:\Users\jorou\IdeaProjects\tera_shock\java\tera_shock\tera
 
