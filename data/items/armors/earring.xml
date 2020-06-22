@@ -720,9 +720,9 @@
 	<armor id="20436" type="earring" name="Sympathetic Earring" requiredLevel="60" rank="unknown" bindType="unknown" defence="0" balance="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	<armor id="20437" type="earring" name="Caged Curiosity" requiredLevel="60" rank="unknown" bindType="unknown" defence="0" balance="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 
-	<armor id="20365" type="earring" name="Glowing Mistcrystal Trio" requiredLevel="60" rank="epic" bindType="none" defence="260" balance="442" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
+	<armor id="20365" type="earring" name="Glowing Mistcrystal Trio" requiredLevel="60" rank="epic" bindType="none" defence="363" balance="784" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
 		<funcs>
-			<add stat="maxHp" order="0x40" val="2830"/> 
+			<add stat="maxHp" order="0x40" val="3810"/> 
 		</funcs>
 	</armor>
 	

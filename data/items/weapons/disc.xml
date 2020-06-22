@@ -2862,10 +2862,35 @@
 		</funcs>
 	</weapon>		
 	
-	<weapon id="10493" type="disc" name="Midnightfire" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="10493" type="disc" name="Midnightfire" requiredLevel="60" rank="epic" bindType="unknown" attack="3668" impact="17012" sockets="4" enchantable="false" extractable="13" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+				<add stat="regMp" order="0x40" val="53"/> 
+				<mul stat="atk" order="0x50" val="1.045" >
+					<target npcType="MINION_LEADER" />
+				</mul>
+				<mul stat="atk" order="0x50" val="1.051">
+					<and>
+						<target npcType="MONSTER"/>
+						<target side="BEHIND"/>
+					</and>
+				</mul>
+				<mul stat="atk" order="0x50" val="1.03">
+					<target aggroMe="true"/>
+				</mul>				
+				<mul stat="atk" order="0x50" val="1.053">
+					<and>
+						<target npcType="MONSTER"/>
+						<target owerturned="true"/>
+					</and>
+				</mul> 		
+				<mul stat="atk" order="0x50" val="1.06">
+					<target npcRage="true"/>
+				</mul>				
+			</funcs>
+	</weapon>
 	<weapon id="10269" type="disc" name="Repribond" requiredLevel="60" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	
-	<weapon id="10109" type="disc" name="Reprogrammed Graticule" requiredLevel="60" rank="common" bindType="unknown" attack="3206" impact="8684" sockets="2" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">
+	<weapon id="10109" type="disc" name="Reprogrammed Graticule" requiredLevel="60" rank="epic" bindType="unknown" attack="3668" impact="17012" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">
 		<funcs>
 			<add stat="regMp" order="0x40" val="34"/> 			
 		</funcs>

@@ -1847,7 +1847,7 @@
 			<add stat="maxMp" order="0x40" val="1933"/>
 			<mul stat="def" order="0x30" val="1.045">
 				<attacker npcType="MINION_LEADER"/>
-			</mul>			
+			</mul>
 		</funcs>
 	</armor>
 	
@@ -2215,7 +2215,7 @@
 			</mul>
 			<mul stat="def" order="0x30" val="1.06">
 				<attacker npcRage="true"/>
-			</mul>			
+			</mul>
 		</funcs>
 	</armor>
 	
@@ -2777,15 +2777,19 @@
 	<armor id="18489" type="body" kind="cloth" name="Nightshift" requiredLevel="60" rank="epic" bindType="onEquip" defence="1061" balance="5595" sockets="4" enchantable="true" extractable="13" remodelable="true" dyeable="true" tradable="true" sellable="false" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
 		<funcs>
 			<add stat="maxMp" order="0x40" val="2388"/>
+			<mul stat="regHp" order="0x30" val="1.086"/>
 			<mul stat="def" order="0x30" val="1.045">
 				<attacker npcType="ELITE"/>
 			</mul>
 			<mul stat="def" order="0x30" val="1.053">
 				<player owerturned="true"/>
 			</mul>
-			<!-- Todo: take 6% less from enraged monster -->
-			<!-- Todo: Increases hp restoration by 8.6% -->
-			<!-- Todo: Increases balance while using a skill by 18% -->
+			<mul stat="balance" order="0x30" val="1.18">
+				<player onCast="true"/>
+			</mul>
+			<mul stat="def" order="0x30" val="1.06">
+				<attacker npcRage="true"/>
+			</mul>
 		</funcs>
 	</armor>
 </list>

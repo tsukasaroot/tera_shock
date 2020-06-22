@@ -725,7 +725,8 @@
 	
 	<armor id="20725" type="necklace" name="Windswept Pendant" requiredLevel="60" rank="epic" bindType="onEquip" attack="319" impact="618" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
 		<funcs>
-			<add stat="maxMp" order="0x40" val="202"/>
+			<add stat="maxMp" order="0x40" val="224"/>
+			<mul stat="atkSpd" order="0x30" val="1.04" />
 		</funcs>
 	</armor>
 	

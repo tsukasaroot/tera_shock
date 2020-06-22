@@ -747,9 +747,11 @@
 	<armor id="20132" type="ring" name="Valsekyr Setting" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	<armor id="20133" type="ring" name="Shariar Setting" requiredLevel="60" rank="unknown" bindType="unknown" attack="0" impact="0" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	
-	<armor id="20129" type="ring" name="Kryheart Setting" requiredLevel="60" rank="epic" bindType="onEquip" attack="319" impact="618" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
+	<!-- Kryheart Setting onEquip-->
+	<armor id="20129" type="ring" name="Kryheart Setting" requiredLevel="60" rank="epic" bindType="onPickUp" attack="319" impact="618" tradable="false" sellable="f" bank="true" guildBank="false" buyPrice="0" sellPrice="0">
 		<funcs>
-			<add stat="maxMp" order="0x40" val="153"/> 
+			<add stat="maxMp" order="0x40" val="153"/>
+			<mul stat="healPowerPercent" order="0x30" val="1.05"/>
 		</funcs>
 	</armor>
 	
