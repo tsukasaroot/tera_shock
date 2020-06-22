@@ -33,6 +33,7 @@ public class RequestPlayerUnstuck extends ClientPacket
         readInt();
     }
 
+    @Override
     public void runImpl()
     {
         if(player == null || !player.isResurrected())

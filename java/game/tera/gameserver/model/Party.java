@@ -555,7 +555,7 @@ public final class Party implements Foldable
 	{
 		if(owner.isBattleStanced() && !isLootInCombat())
 		{
-			owner.sendMessage("Нельзя поднимать в бою.");
+			owner.sendMessage("Cannot loot while in combat.");
 			return false;
 		}
 

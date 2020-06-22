@@ -19,6 +19,8 @@ public class IncreaseLevel extends ServerPacket
 		packet.objectId = player.getObjectId();
 		packet.subId = player.getSubId();
 		packet.level = player.getLevel();
+		if (player.getLevel() == 60 || player.getLevel() == 2)
+			player.sendMessage("You reached lvl "+player.getLevel()+"! Here some starting equipment !");
 
 		return packet;
 	}

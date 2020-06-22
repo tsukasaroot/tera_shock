@@ -1,56 +1,56 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
-	<!-- порт сервера для бинда (11101) -->
-	<set name="SERVER_PORT" value="14752" />
+	<!-- server port to Bind (14752) -->
+	<set name="SERVER_PORT" value="11101" />
 
-	<!-- допустимые символы для нового ника -->
+	<!-- valid characters for a new nickname -->
 	<set name="SERVER_NAME_TEMPLATE" value="([0-9A-Za-z]{2,16})|([0-9\u0410-\u044f]{2,16})|([0-9А-Яа-я]{2,16})" />
 	
-	<!-- множитель получаемого опыта (1.0) -->
+	<!-- Experience gained factor (1.0) -->
 	<set name="SERVER_RATE_EXP" value="10.0" />
-	<!-- множитель получаемого опыта в пати (1.1) -->
-	<set name="SERVER_PARTY_RATE_EXP" value="10" />
-	<!-- множитель дропнутых денег (1.0) -->
-	<set name="SERVER_RATE_MONEY" value="6.0" />
-	<!-- множитель выпадающего дропа (1.0) -->
-	<set name="SERVER_RATE_DROP_ITEM" value="4.0" />
-	<!-- множитель квестов (1.0) -->
-	<set name="SERVER_RATE_QUEST_REWARD" value="2.0" />
+	<!-- the multiplier of experience in party (1.1) -->
+	<set name="SERVER_PARTY_RATE_EXP" value="20.1" />
+	<!-- drop a money multiplier (1.0) -->
+	<set name="SERVER_RATE_MONEY" value="20.0" />
+	<!-- item drop factor (1.0) -->
+	<set name="SERVER_RATE_DROP_ITEM" value="1.0" />
+	<!-- rate reward quest (1.0) -->
+	<set name="SERVER_RATE_QUEST_REWARD" value="9.0" />
 	
-	<!-- использовать ли опкоды снифера (false) -->
+	<!-- whether to use a sniffer opcodes (false) -->
 	<set name="SERVER_USE_SNIFFER_OPCODE" value="true" />
-	<!-- использовать ли реальный рандоминайзер для дропа (false) -->
+	<!-- whether to use real randomayzer to drop (false) -->
 	<set name="SERVER_DROP_REAL_RANDOM" value="true" />
-	<!-- использовать ли реальный рандоминайзер для критов (false) -->
+	<!-- whether to use a real Cretan randomayzer (false) -->
 	<set name="SERVER_CRIT_REAL_RANDOM" value="false" />
-	<!--использовать ли реальный рандоминайзер для эффектов (false) -->
+	<!-- whether to use the real effects for randomayzer (false) -->
 	<set name="SERVER_EFFECT_REAL_RANDOM" value="false" />
-	<!-- использовать ли реальный рандоминайзер для функций (false) -->
+	<!-- whether to use real functions randomayzer (false) -->
 	<set name="SERVER_FUNC_REAL_RANDOM" value="false" />
-	<!-- использовать ли реальный рандоминайзер для дэмага (false) -->
+	<!-- whether to use real randomayzer for damage (false) -->
 	<set name="SERVER_DAMAGE_REAL_RANDOM" value="false" />
-	<!-- использовать ли реальный рандоминайзер для опрокидывания (false) -->
+	<!-- whether to use real randomayzer for tipping (false) -->
 	<set name="SERVER_OWERTURN_REAL_RANDOM" value="false" />
 	
-        <!-- модификатор онлайна (1.0) -->
-	<set name="SERVER_ONLINE_FAKE" value="3.15" />
-	<!-- адресс вывода в фаил онлайна сервера /home/brabusx/online/online.txt -->
+    <!-- modifier available online (online command) (1.0) -->
+	<set name="SERVER_ONLINE_FAKE" value="1.0" />
+	<!-- O address online file server /home/brabusx/online/online.txt -->
 	<set name="SERVER_ONLINE_FILE" value="online.php" />
 	
 	
 	
-	<!-- саб ид игроков (1000) -->
+	<!-- Id sub players (1000) -->
 	<set name="SERVER_PLAYER_SUB_ID" value="1000" />
-	<!-- саб ид нпс (2000) -->
+	<!-- NPC sub id (2000) -->
 	<set name="SERVER_NPC_SUB_ID" value="2000" />
-	<!-- саб ид итемов (3000) -->
+	<!-- sub id an item (3000) -->
 	<set name="SERVER_ITEM_SUB_ID" value="3000" />
-	<!-- саб ид выстрелов (4000) -->
+	<!-- sub of the shots (4000) -->
 	<set name="SERVER_SHOT_SUB_ID" value="4000" />
-	<!-- саб ид объектов (5000) -->
+	<!-- sub object IDs (5000) -->
 	<set name="SERVER_OBJECT_SUB_ID" value="5000" />
-	<!-- саб ид ловушек (6000) -->
+	<!-- sub id traps (6000) -->
 	<set name="SERVER_TRAP_SUB_ID" value="6000" />
-	<!-- саб ид ресурсов (7000) -->
+	<!-- sub id resources (7000) -->
 	<set name="SERVER_RESOURSE_SUB_ID" value="7000" />
 </list>    

@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
-	<!-- вывод дебаг инфы о пересылке клиент пакетов -->
+	<!-- conclusion of information about sending debug client packages -->
 	<set name="DEVELOPER_DEBUG_CLIENT_PACKETS" value="false" />
-	<!-- вывод дебаг инфы о пересылке серверных пакетов -->
+	<!-- conclusion of information about sending debug server packages -->
 	<set name="DEVELOPER_DEBUG_SERVER_PACKETS" value="false" />
-	<!-- вывод общей дебаг инфы -->
+	<!-- the total output of debug of information -->
 	<set name="DEVELOPER_MAIN_DEBUG" value="false" />
-	<!-- вывод дебаг инфы связанной с таргетами скилов -->
+	<!-- the output of information related to debug target skills -->
 	<set name="DEVELOPER_DEBUG_TARGET_TYPE" value="false" />
 	
-	<!-- вывод дебага связанного с кастом скилов -->
+	<!-- the output associated with the debug custom skill -->
 	<set name="DEVELOPER_DEBUG_CASTING_SKILL" value="false" />
-	<!-- вывод дебага связанного с перемещением игрока -->
+	<!-- the output debug associated with the movement of the player -->
 	<set name="DEVELOPER_DEBUG_MOVING_PLAYER" value="false" />
-	<!-- вывод дебага связанного с перемещением нпс -->
+	<!-- the output debug associated with the movement of NPC -->
 	<set name="DEVELOPER_DEBUG_MOVING_NPC" value="false" />
-	<!-- логгирование перемещения игроков -->
+	<!-- logging of movement of players -->
 	<set name="DEVELOPER_GEO_LOGING" value="false" />
 	
-	<!-- установить принудительную скорость атаки всех персонажей(0 - выключено) -->
+	<!-- establish a compulsory rate of attack all the characters (0 - off) -->
 	<set name="DEVELOPER_FORCE_ATTACK_SPEED" value="0" />
 </list>
