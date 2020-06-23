@@ -38,7 +38,7 @@ public class CensoreCommand extends AbstractCommand
 
 				if(vals.length < 3)
 				{
-					player.sendMessage("некорректные значения.");
+					player.sendMessage("incorrect values.");
 					return;
 				}
 
@@ -47,7 +47,7 @@ public class CensoreCommand extends AbstractCommand
 
 				if(comment.isEmpty())
 				{
-					player.sendMessage("не введена причина.");
+					player.sendMessage("no reason entered.");
 					return;
 				}
 
@@ -62,7 +62,7 @@ public class CensoreCommand extends AbstractCommand
 
 				if(target == null)
 				{
-					player.sendMessage("указанный игрок не находится в игре.");
+					player.sendMessage("the specified player is not in the game.");
 					return;
 				}
 
@@ -79,7 +79,7 @@ public class CensoreCommand extends AbstractCommand
 					stringDate = timeFormat.format(date);
 				}
 
-				World.sendAnnounce(player.getName() + " заблокировал чат игроку " + name + " до " + stringDate + " причина: " + comment);
+				World.sendAnnounce(player.getName() + " blocked chat player " + name + " for " + stringDate + " because: " + comment);
 
 				break;
 			}
@@ -94,19 +94,19 @@ public class CensoreCommand extends AbstractCommand
 
 				if(target == null)
 				{
-					player.sendMessage("указанный игрок не находится в игре.");
+					player.sendMessage("the specified player is not in the game.");
 					return;
 				}
 
 				if(target.getEndChatBan() < 1)
 				{
-					player.sendMessage("у игрока нет блокировки чата.");
+					player.sendMessage("player has no chat block.");
 					return;
 				}
 
 				target.setEndChatBan(0);
 
-				World.sendAnnounce(player.getName() + " разблокировал чат игроку " + values);
+				World.sendAnnounce(player.getName() + " unlocked chat player " + values);
 			}
 		}
 	}

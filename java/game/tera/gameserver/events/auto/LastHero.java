@@ -343,7 +343,7 @@ public final class LastHero extends AbstractAutoEvent
 			}
 
 			// сообщаем об награде
-			player.sendMessage("Вы получили " + reward + " очка(ов) славы.");
+			player.sendMessage("You received " + reward + " fame.");
 		}
 
 		// ставим стадию финиша

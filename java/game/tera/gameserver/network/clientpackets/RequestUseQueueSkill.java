@@ -191,7 +191,7 @@ public class RequestUseQueueSkill extends ClientPacket
 		if(skill == null)
 		{
 			// сообщаем и выходим
-			player.sendMessage("Этого скила у вас нету.");
+			player.sendMessage("You do not have this skill.");
 			return;
 		}
 

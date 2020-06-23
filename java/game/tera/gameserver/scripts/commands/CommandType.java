@@ -26,7 +26,7 @@ public enum CommandType {
 			"start_gc", "reload_dialogs", "send_packet", "set_access_level", "get_access_level", "set_heart", "set_level", "send_bytes", "send_file", "get_my_id", "invul", "set_ower_dist",
 			"my_funcs", "save_point", "a", "save_all", "gm_speed"),
 	/** команды над итемами */
-	ITEM_COMMANDS(ItemCommand.class, 100, "item_info", "create_item", "spawn_item", "reload_items"),
+	ITEM_COMMANDS(ItemCommand.class, 100, "item_info", "create_item", "spawn_item", "reload_items", "item_help"),
 	/** пользовательские команды */
 	USER_COMMANDS(UserCommand.class, 0, "event_reg", "restore_characters", "player_info", "help", "version", "end_pay", "time", "kill_me", "online", "restore_skills"),
 	/** команды цензоров */

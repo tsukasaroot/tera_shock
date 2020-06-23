@@ -68,7 +68,7 @@ public final class LoadGuildIcon extends AbstractDialog
 		guild.updateIcon();
 		
 		// отправляем сообщение
-		player.sendMessage("Вы загрузили эмблему гильдии, сделайте релог.");
+		player.sendMessage("You have uploaded the guild logo.");
 		
 		return true;
 	}

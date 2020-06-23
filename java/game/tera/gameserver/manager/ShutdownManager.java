@@ -20,7 +20,7 @@ public final class ShutdownManager
 	public static final void cancel()
 	{
 		if(task.cancel())
-			World.sendAnnounce("Выключение сервера прервано.");
+			World.sendAnnounce("Server shutdown canceled.");
 	}
 
 	/**

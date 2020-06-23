@@ -52,7 +52,7 @@ public class RequestGuildLoadIcon extends ClientPacket
 
 		if(icon == null || icon.length < 5)
 		{
-			player.sendMessage("Загрузка произошла неудачно.");
+			player.sendMessage("Download failed.");
 			return;
 		}
 

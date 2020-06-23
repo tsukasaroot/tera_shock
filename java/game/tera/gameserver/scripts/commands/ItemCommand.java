@@ -46,8 +46,10 @@ public class ItemCommand extends AbstractCommand
 			{
 				String[] vals = values.split(" ");
 
-				if(vals.length != 2)
+				if(vals.length != 2) {
+					player.sendMessage("Not enough arguments: spawn_item ID count");
 					return;
+				}
 
 				int id = Integer.parseInt(vals[0]);
 				int count = Integer.parseInt(vals[1]);
@@ -108,8 +110,11 @@ public class ItemCommand extends AbstractCommand
 			{
 				String[] vals = values.split(" ");
 
-				if(vals.length < 1)
+				//maybe adding count to helper if its necessary argument -> to check
+				if(vals.length < 1) {
+					player.sendMessage("Not enough arguments: create_item ID count");
 					return;
+				}
 
 				int id = Integer.parseInt(vals[0]);
 
@@ -145,6 +150,14 @@ public class ItemCommand extends AbstractCommand
 					// обновляемся
 					eventManager.notifyInventoryChanged(player);
 				}
+
+				break;
+			}
+			case "item_help":
+			{
+				player.sendMessage("spawn_item: Spawn an item on the ground, give the ID and the count.");
+				player.sendMessage("item_info: Show an item informations, give the ID.");
+				player.sendMessage("create_item: Give an item in the player inventory, give the ID and the count.");
 
 				break;
 			}

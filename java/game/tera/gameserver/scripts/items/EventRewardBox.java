@@ -289,7 +289,7 @@ public class EventRewardBox extends AbstractItemExecutor
 
 		if(rewards.length < 1)
 		{
-			player.sendMessage("для вашего уровня сундука награды еще нет, попробуйте позже.");
+			player.sendMessage("there is no reward for your chest level, try again later.");
 			return;
 		}
 

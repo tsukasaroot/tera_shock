@@ -978,7 +978,7 @@ public class Region extends SafeTask implements DieListener, PlayerSelectListene
 
 		// если победителя нет
 		if(top == null && npc == 0)
-			sendAnnounce("В битве за \"" + getName() + "\" победила ничья, владелец остается прежний.");
+			sendAnnounce("In the balle for \"" + getName() + "\" the draw won, the owner remains the same.");
 		// если победитель НПС
 		else if(top == null && npc > 0)
 		{

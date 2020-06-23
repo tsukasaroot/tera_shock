@@ -187,7 +187,7 @@ public class DuelStartAction extends PlayerAction
 		// еси кто-то из них на ивенте, выходим
 		if(actor.isEvent() || target.isEvent())
 		{
-			actor.sendMessage("Нельзя начинать дуэль на ивенте.");
+			actor.sendMessage("You cannot start a duel during an event.");
 			return false;
 		}
 
@@ -200,7 +200,7 @@ public class DuelStartAction extends PlayerAction
 		// если кто-то из них уже в дуэли, выходим
 		if(target.hasDuel())
 		{
-			actor.sendMessage("Игрок уже в дуэли.");
+			actor.sendMessage("Player is already in duel.");
 			return false;
 		}
 

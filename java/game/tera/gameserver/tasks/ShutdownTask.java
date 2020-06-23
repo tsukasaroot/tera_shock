@@ -100,12 +100,10 @@ public class ShutdownTask extends SafeTask
 			// выводим сообщение в анонс
 			if(restart)
 			{
-				World.sendAnnounce("Рестарт сервера произойдет через " + (delay / 1000 / 60) + " минут.");
 				World.sendAnnounce("Restart the server will happen in " + (delay / 1000 / 60) + " minutes.");
 			}
 			else
 			{
-				World.sendAnnounce("Выключение сервера произойдет через " + (delay / 1000 / 60) + " минут.");
 				World.sendAnnounce("Server shutdown will happen in " + (delay / 1000 / 60) + " minutes.");
 			}
 
@@ -126,19 +124,16 @@ public class ShutdownTask extends SafeTask
 			// выводим кол-во оставшихся минут
 			if(restart)
 			{
-				World.sendAnnounce("Рестарт сервера произойдет через " + (delay / 1000 / 60) + " минут.");
 				World.sendAnnounce("Restart the server will happen in " + (delay / 1000 / 60) + " minutes.");
 			}
 			else
 			{
-				World.sendAnnounce("Выключение сервера произойдет через " + (delay / 1000 / 60) + " минут.");
 				World.sendAnnounce("Server shutdown will happen in " + (delay / 1000 / 60) + " minutes.");
 			}
 		}
 		// иначе говорим, что вырубится через минуту
 		else
 		{
-			World.sendAnnounce("Через 1 минуту сервер выключится.");
 			World.sendAnnounce ("After 1 minute, turn off the server.");
 
 			// получаем таблицу спавна

@@ -584,8 +584,8 @@ public final class EpicBattle extends AbstractAutoEvent
 			return;
 		}
 
-		World.sendAnnounce("В ивенте будут участвовать " + players.size() + " игрока(ов)");
-		World.sendAnnounce("Fight will stat in 1 minute");
+		World.sendAnnounce("There will be " + players.size() + " player(s)");
+		World.sendAnnounce("Fight will start in 1 minute");
 
 		array = playerTeam.array();
 
