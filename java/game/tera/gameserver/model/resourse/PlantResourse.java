@@ -37,8 +37,11 @@ public class PlantResourse extends ResourseInstance
 		// увеличиваем уровень сбора
 		player.setPlantLevel(player.getPlantLevel() + 1);
 
+		if (player.getEnergyLevel() >= 4)
+			player.sendMessage("You have reached max level for "+ getTemplate().getType() +"! Here a git!");
+
 		// отправляю сообщение
-		player.sendPacket(ResourseIncreaseLevel.getInstance(getTemplate().getType(), player.getPlantLevel()), true);
+		player.sendPacket(ResourseIncreaseLevel.getInstance(getTemplate().getType(), player.getPlantLevel(), player), true);
 
 		// обновляю статы
 		player.updateInfo();

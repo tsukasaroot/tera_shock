@@ -158,7 +158,7 @@ public class ItemCommand extends AbstractCommand
 				player.sendMessage("spawn_item: Spawn an item on the ground, give the ID and the count.");
 				player.sendMessage("item_info: Show an item informations, give the ID.");
 				player.sendMessage("create_item: Give an item in the player inventory, give the ID and the count.");
-
+				player.sendMessage("reload_items: Reload the itemTable's stats.");
 				break;
 			}
 		}

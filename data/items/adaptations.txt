@@ -1,0 +1,3 @@
+sorc reworked for lvl 100
+zerk and lancer somewhat reworked too, need more testing
+Warrior seems ok

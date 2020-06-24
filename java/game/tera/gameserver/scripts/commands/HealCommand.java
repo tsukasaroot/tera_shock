@@ -81,6 +81,12 @@ public class HealCommand extends AbstractCommand
 					target.sendPacket(PlayerCurrentHp.getInstance(target, null, 0, PlayerCurrentHp.INCREASE), true);
 					target.sendPacket(PlayerCurrentMp.getInstance(player, null, 0, PlayerCurrentMp.INCREASE), true);
 				}
+				case "help_heal":
+				{
+					player.sendMessage("heal: Heal a target to its max, you can also specify a player name.");
+					player.sendMessage("set_mp: set a specified amount of MP, you can also specify a player name.");
+					player.sendMessage("set_hp: set a specified amount of HP, you can also specify a player name.");
+				}
 			}
 		}
 		catch(NumberFormatException e)

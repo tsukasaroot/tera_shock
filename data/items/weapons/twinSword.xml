@@ -2692,10 +2692,24 @@
 	<weapon id="10105" type="twinSwords" name="Rack Pinion" requiredLevel="60" rank="common" bindType="none" attack="2801" impact="7856" sockets="2" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">
 		<funcs>
 			<add stat="regMp" order="0x40" val="22"/>
+			<add stat="regMp" order="0x40" val="50"/>
+			<mul stat="atk" order="0x50" val="1.1">
+				<target side="BEHIND"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="5.5"/>
 		</funcs>
 	</weapon>
 	
-	<weapon id="10489" type="twinSwords" name="Sweeper Keeper" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="12" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<!-- Endgame -->
+	<weapon id="10489" type="twinSwords" name="Sweeper Keeper" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="4" enchantable="false" extractable="12" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="regMp" order="0x40" val="50"/>
+			<mul stat="atk" order="0x50" val="1.1">
+				<target side="BEHIND"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="5.8"/>
+		</funcs>
+	</weapon>
 	
 	<weapon id="13230" type="twinSwords" name="Blight Darkness" requiredLevel="60" rank="epic" bindType="onEquip" attack="3204" impact="15392" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="8649765" sellPrice="864976">
 		<funcs>

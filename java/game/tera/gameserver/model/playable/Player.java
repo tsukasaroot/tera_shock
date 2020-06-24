@@ -2781,7 +2781,7 @@ public final class Player extends Playable implements Nameable, Identified {
 			player.setKarma(player.getKarma() + karma);
 		}
 
-		player.sendMessage("Вы получили " + karma + " кармы, итоговая составляет: " + player.getKarma());
+		player.sendMessage("You received " + karma + " karma, the total is: " + player.getKarma());
 
 		if(updateColor) {
 			player.updateColor();

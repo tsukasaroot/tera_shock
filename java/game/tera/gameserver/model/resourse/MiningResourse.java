@@ -37,8 +37,11 @@ public class MiningResourse extends ResourseInstance
 		// увеличиваем уровень сбора
 		player.setMiningLevel(player.getMiningLevel() + 1);
 
+		if (player.getEnergyLevel() >= 4)
+			player.sendMessage("You have reached max level for "+ getTemplate().getType() +"! Here a git!");
+
 		// отправляю сообщение
-		player.sendPacket(ResourseIncreaseLevel.getInstance(getTemplate().getType(), player.getMiningLevel()), true);
+		player.sendPacket(ResourseIncreaseLevel.getInstance(getTemplate().getType(), player.getMiningLevel(), player), true);
 
 		// обновляю статы
 		player.updateInfo();

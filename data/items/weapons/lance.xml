@@ -2602,6 +2602,7 @@
 			<add stat="regMp" order="0x40" val="47"/>		
 			<add stat="maxDamDef" order="0x40" val="34946"/>  
 			<mul stat="agrMod" order="0x30" val="1.135"/>
+			<mul stat="atk" order="0x50" val="1.9" />
 			<!--Добавить: 0.2% of your total MP instantly returns when you use a skill.-->
 			<!-- Добавить параметр: Do 6% more damage when you attack enraged monsters. --> 
 		</funcs>

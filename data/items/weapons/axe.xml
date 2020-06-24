@@ -3785,7 +3785,15 @@
 	<weapon id="13217" type="axe" name="Aestivax" requiredLevel="60" rank="epic" bindType="onPickUp" attack="3612" impact="14697" sockets="4" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="7688680" sellPrice="768868">
 		<funcs>   
 			<add stat="maxDamDef" order="0x40" val="22471"/>
-			<add stat="absMpOnMax" order="0x40" val="57"/>  
+			<add stat="absMpOnMax" order="0x40" val="57"/>
+			<!-- added -->
+			<add stat="rCrit" order="0x40" val="25"/>
+			
+			<!-- added -->
+			<add stat="maxMp" order="0x40" val="1000"/>
+			<add stat="regMp" order="0x40" val="53"/>
+			
+			<mul stat="atk" order="0x50" val="1.9" />
 			<mul stat="atk" order="0x50" val="1.045" >
 				<target npcType="MINION_LEADER" />
 			</mul>

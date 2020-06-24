@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<npc id="30002" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="11988.925" y="7729.0026" z="974.0026" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="30004" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="11988.925" y="7729.0026" z="974.0026" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="30005" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="11988.925" y="7729.0026" z="974.0026" />
+			</time>
+		</ai>
+	</npc>
+	
+	<!-- Cohorte at ruins <point x="11484.059" y="4390.2505" z="638.25" /> -->
+	
+	<npc id="30007" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="6472.1016" y="873.0922" z="592.03825" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="30008" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="6641.7256" y="804.1851" z="561.8212" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="30005" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="6650.968" y="908.2113" z="560.2198" />
+			</time>
+		</ai>
+	</npc>
+
+	<npc id="30002" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="6652.985" y="1007.0038" z="559.10205" />
+			</time>
+		</ai>
+	</npc>
+	
+	<npc id="30004" type="300" >
+		 <ai newAI="true" class="DEFAULT" config="DefaultMonster" >
+			<time respawn="2000" >
+				<point x="6836.417" y="912.52014" z="543.3794" />
+			</time>
+		</ai>
+	</npc>
+
+</list>

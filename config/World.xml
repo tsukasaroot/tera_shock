@@ -26,15 +26,15 @@
 	<set name="WORLD_LEARN_ONLY_IMPLEMENTED_SKILLS" value="true" />
 	<!-- maximum difference in the player's level mob loot for loss (4) -->
 	<set name="WORLD_MAX_DIFF_LEVEL_ON_DROP" value="5" />
-	<!-- a chance to remove the crystal death (13) -->
-	<set name="WORLD_CHANCE_DELETE_CRYSTAL" value="8" />
+	<!-- a chance to remove the crystal death (13) value was 8 -->
+	<set name="WORLD_CHANCE_DELETE_CRYSTAL" value="0" />
 	<!-- a chance to remove the crystal death (300) -->
 	<set name="WORLD_MAX_COLLECT_LEVEL" value="300" />
 	<!-- number of continents in the world (3) -->
 	<set name="WORLD_CONTINENT_COUNT" value="3" />
 	
 	<!-- what level targets can not be drained into the PK -->
-    <set name="WORLD_MIN_TARGET_LEVEL_FOR_PK" value="10" />
+    <set name="WORLD_MIN_TARGET_LEVEL_FOR_PK" value="101" />
 
 	
 	<!-- modifier prices in the store (1) -->
@@ -60,7 +60,7 @@
 	<set name="WORLD_MAX_SKILL_DESYNC" value="300" />
 	
 	<!-- PC mode is available if players (true) -->
-	<set name="WORLD_PK_AVAILABLE" value="true" />
+	<set name="WORLD_PK_AVAILABLE" value="false" />
 	
 	<!-- modifier rollback fellow skills (1) -->
 	<set name="WORLD_SHORT_SKILL_REUSE_MOD" value="0.9" />

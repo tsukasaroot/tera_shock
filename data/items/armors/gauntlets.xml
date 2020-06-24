@@ -1612,7 +1612,7 @@
 	
 	<armor id="18556" type="gloves" kind="metal" name="Skyborne Reach" requiredLevel="60" rank="epic" bindType="onEquip" defence="2735" balance="6246" sockets="0" enchantable="false" extractable="13" remodelable="true" dyeable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
 		<funcs>
-			<add stat="rCrit" order="0x40" val="3"/> 
+			<add stat="rCrit" order="0x40" val="3"/>
 		</funcs>
 	</armor>
 </list>

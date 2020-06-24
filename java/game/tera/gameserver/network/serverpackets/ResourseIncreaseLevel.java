@@ -1,9 +1,11 @@
 package tera.gameserver.network.serverpackets;
 
-import java.nio.ByteBuffer;
-
 import tera.gameserver.model.resourse.ResourseType;
 import tera.gameserver.network.ServerPacketType;
+
+import tera.gameserver.model.playable.Player;
+
+import java.nio.ByteBuffer;
 
 
 /**
@@ -14,13 +16,15 @@ import tera.gameserver.network.ServerPacketType;
 public class ResourseIncreaseLevel extends ServerPacket
 {
 	private static final ServerPacket instance = new ResourseIncreaseLevel();
-	
-	public static ResourseIncreaseLevel getInstance(ResourseType type, int level)
+
+	public static ResourseIncreaseLevel getInstance(ResourseType type, int level, Player player)
 	{
 		ResourseIncreaseLevel packet = (ResourseIncreaseLevel) instance.newInstance();
-		
+
 		packet.level = level;
 		packet.type = type;
+
+		player.sendMessage("You have reached max level "+ level +" for "+ type +"! Here a gift!");
 		
 		return packet;
 	}

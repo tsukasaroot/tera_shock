@@ -1581,7 +1581,7 @@
 	
 	<armor id="15450" type="boots" kind="cloth" name="Unswerving Shoes" requiredLevel="60" rank="rare" bindType="onEquip" defence="753" balance="3353" sockets="0" enchantable="false" extractable="12" remodelable="true" dyeable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="0" sellPrice="0">
 		<funcs>
-			<mul stat="runSpd" order="0x30" val="1.06"/>  
+			<mul stat="runSpd" order="0x30" val="1.06"/>
 		</funcs>
 	</armor>
 	

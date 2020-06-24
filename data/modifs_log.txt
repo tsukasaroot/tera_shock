@@ -1,0 +1,2 @@
+territories.xml, suppression de type="PEACE_TERRITORY" pour id = 2
+type="CAMP_TERRITORY" pour id = 1

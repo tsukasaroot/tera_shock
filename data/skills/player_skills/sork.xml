@@ -17,7 +17,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
 	</skill>	
 	
@@ -38,7 +38,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>	
 	
@@ -59,7 +59,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -80,7 +80,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -101,7 +101,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -122,7 +122,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -143,7 +143,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -164,7 +164,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -185,7 +185,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -206,7 +206,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 	
@@ -227,7 +227,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>		
     </skill>
 		
@@ -248,7 +248,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 	</skill>
 	
@@ -269,7 +269,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -290,7 +290,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -311,7 +311,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -332,7 +332,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -353,7 +353,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -374,7 +374,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -395,7 +395,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -416,7 +416,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -437,7 +437,7 @@
 		<set name="owerturnMod" value="0.01" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -455,7 +455,7 @@
 		<set name="implemented" value="true" />
 		<set name="forceCast" value="true" />
 		<cond>
-			<player notBarrier="true" msg="Нельзя использовать около преград." />
+			<player notBarrier="true" msg="Do not use near obstacles." />
 		</cond>	
     </skill>
 
@@ -475,7 +475,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -495,7 +495,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -515,7 +515,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -535,7 +535,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -555,7 +555,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -575,7 +575,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -595,7 +595,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -615,7 +615,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -635,7 +635,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -655,7 +655,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -677,7 +677,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -704,7 +704,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -731,7 +731,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -758,7 +758,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -785,7 +785,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -812,7 +812,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -839,7 +839,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -866,7 +866,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -893,7 +893,7 @@
 		<set name="maxTargets" value="20" />
         <set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 		<for> 
 			<effect id="500500" time="10" count="1" type="DEBUFF" dynamicTime="true" stackType="speed_down" chance="97" debuff="true" >
@@ -950,6 +950,9 @@
         <for>
 			<effect id="500700" time="2" count="5" type="DAM_OVER_TIME" power="26" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269064" class="4" name="Painblast II" levels="1">
@@ -972,6 +975,9 @@
         <for>
 			<effect id="500701" time="2" count="5" type="DAM_OVER_TIME" power="40" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269164" class="4" name="Painblast III" levels="1">
@@ -994,6 +1000,9 @@
         <for>
 			<effect id="500702" time="2" count="5" type="DAM_OVER_TIME" power="58" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269264" class="4" name="Painblast IV" levels="1">
@@ -1016,6 +1025,9 @@
         <for>
 			<effect id="500703" time="2" count="5" type="DAM_OVER_TIME" power="85" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269364" class="4" name="Painblast V" levels="1">
@@ -1038,6 +1050,9 @@
         <for>
 			<effect id="500704" time="2" count="5" type="DAM_OVER_TIME" power="121" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269464" class="4" name="Painblast VI" levels="1">
@@ -1060,6 +1075,9 @@
         <for>
 			<effect id="500705" time="2" count="5" type="DAM_OVER_TIME" power="174" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269564" class="4" name="Painblast VII" levels="1">
@@ -1082,6 +1100,9 @@
         <for>
 			<effect id="500706" time="2" count="5" type="DAM_OVER_TIME" power="241" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67269664" class="4" name="Painblast VIII" levels="1">
@@ -1104,6 +1125,9 @@
         <for>
 			<effect id="500707" time="2" count="5" type="DAM_OVER_TIME" power="341" stackType="poison" chance="97" debuff="true" />
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67298964" class="4" name="Mana Siphon" levels="13">
@@ -1133,6 +1157,9 @@
 		<set name="interval" value="#interval"/>
         <set name="reuseDelay" value="19000"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67148964" class="4" name="Arcane Pulse I" levels="14">
@@ -1166,6 +1193,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149064" class="4" name="Arcane Pulse II" levels="14">
@@ -1199,6 +1229,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149164" class="4" name="Arcane Pulse III" levels="14">
@@ -1232,6 +1265,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149264" class="4" name="Arcane Pulse IV" levels="14">
@@ -1265,6 +1301,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149364" class="4" name="Arcane Pulse V" levels="14">
@@ -1298,6 +1337,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149464" class="4" name="Arcane Pulse VI" levels="14">
@@ -1331,6 +1373,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149564" class="4" name="Arcane Pulse VII" levels="14">
@@ -1364,6 +1409,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67149664" class="4" name="Arcane Pulse VIII" levels="14">
@@ -1397,6 +1445,9 @@
 		<set name="maxTargets" value="20" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 
 	<skill id="67278964" class="4" name="Painful Trap I" levels="1">
@@ -1412,6 +1463,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67278984" class="4" name="Painful Trap Attack I" levels="1">
@@ -1421,6 +1475,9 @@
         <set name="targetType" value="TRAP_AURA"/>
         <set name="radius" value="100"/>
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279064" class="4" name="Painful Trap II" levels="1">
@@ -1436,6 +1493,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279084" class="4" name="Painful Trap Attack II" levels="1">
@@ -1445,6 +1505,9 @@
         <set name="targetType" value="TRAP_AURA"/>
         <set name="radius" value="100"/>
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279164" class="4" name="Painful Trap III" levels="1">
@@ -1460,6 +1523,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279184" class="4" name="Painful Trap Attack III" levels="1">
@@ -1469,6 +1535,9 @@
         <set name="targetType" value="TRAP_AURA"/>
         <set name="radius" value="100"/>
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279264" class="4" name="Painful Trap IV" levels="1">
@@ -1484,6 +1553,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279284" class="4" name="Painful Trap Attack IV" levels="1">
@@ -1493,6 +1565,9 @@
         <set name="targetType" value="TRAP_AURA"/>
         <set name="radius" value="100"/>
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279364" class="4" name="Painful Trap V" levels="1">
@@ -1508,6 +1583,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67279384" class="4" name="Painful Trap Attack V" levels="1">
@@ -1517,6 +1595,9 @@
         <set name="targetType" value="TRAP_AURA"/>
         <set name="radius" value="100"/>
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67358964" class="4" name="Time Gyre I" levels="11">
@@ -1548,6 +1629,9 @@
 				<mul stat="runSpd" order="0x50" val="0" />
 			</effect>
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67359064" class="4" name="Time Gyre II" levels="11">
@@ -1579,6 +1663,9 @@
 				<mul stat="runSpd" order="0x50" val="0" />
 			</effect>
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67359164" class="4" name="Time Gyre III" levels="11">
@@ -1610,6 +1697,9 @@
 				<mul stat="runSpd" order="0x50" val="0" />
 			</effect>
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67308964" class="4" name="Flaming Barrage I" levels="11">
@@ -1638,6 +1728,9 @@
 		<set name="blockingMove" value="#blockingMove"/>
 		<set name="implemented" value="true" />
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67309064" class="4" name="Flaming Barrage II" levels="11">
@@ -1666,6 +1759,9 @@
 		<set name="blockingMove" value="#blockingMove"/>
 		<set name="implemented" value="true" />
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67309164" class="4" name="Flaming Barrage III" levels="11">
@@ -1694,6 +1790,9 @@
 		<set name="blockingMove" value="#blockingMove"/>
 		<set name="implemented" value="true" />
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67309264" class="4" name="Flaming Barrage IV" levels="11">
@@ -1722,6 +1821,9 @@
 		<set name="blockingMove" value="#blockingMove"/>
 		<set name="implemented" value="true" />
 		<set name="owerturnMod" value="0.01" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67138964" class="4" name="Lightning Trap I" levels="1">
@@ -1737,6 +1839,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67138984" class="4" name="Lightning Trap Attack I" levels="1">
@@ -1751,6 +1856,9 @@
 				<mul stat="runSpd" order="0x50" val="0" />
 			</effect>
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 
 	<skill id="67139064" class="4" name="Lightning Trap II" levels="1">
@@ -1766,6 +1874,9 @@
 		<set name="offsetId" value="20"/>
 		<set name="radius" value="100"/>
 		<set name="implemented" value="true" />
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67139084" class="4" name="Lightning Trap Attack II" levels="1">
@@ -1780,6 +1891,9 @@
 				<mul stat="runSpd" order="0x50" val="0" />
 			</effect>
 		</for>
+		<cond>
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
     <skill id="67248964" class="4" name="Retaliate I" levels="1">
@@ -1794,7 +1908,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1810,7 +1925,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1826,7 +1942,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1842,7 +1959,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1858,7 +1976,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1874,7 +1993,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1890,7 +2010,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1906,7 +2027,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 	
@@ -1922,7 +2044,8 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>
     </skill>
 
@@ -1945,8 +2068,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -1975,8 +2098,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2005,8 +2128,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2035,8 +2158,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2065,8 +2188,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2095,8 +2218,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2125,8 +2248,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2155,8 +2278,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
 		<for> 
@@ -2185,8 +2308,8 @@
         <set name="implemented" value="true" />
 		<cond>
 			<and>
-				<using weapon="DISC" msg="Используется только с диском."/>
-				<player notBarrier="true" msg="Нельзя использовать около преград." />
+				<using weapon="DISC" msg="It is used only with a disk."/>
+				<player notBarrier="true" msg="Do not use near obstacles." />
 			</and>
 		</cond>	
     </skill>
@@ -2205,7 +2328,7 @@
         <set name="reuseDelay" value="30000"/>
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
         <for>
 			<effect id="500800" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
@@ -2228,7 +2351,7 @@
         <set name="reuseDelay" value="30000"/>
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
         <for>
 			<effect id="500800" time="10" count="1" type="STUN" stackType="stun" noAttacked="true" chance="97" debuff="true" >
@@ -2253,7 +2376,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -2273,8 +2396,8 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
-		</cond>	
+			<using weapon="DISC" msg="It is used only with a disk."/>
+		</cond>
     </skill>
 	
 	<skill id="67169164" class="4" name="Fireblast III" levels="1">
@@ -2293,7 +2416,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -2313,7 +2436,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -2333,7 +2456,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -2353,7 +2476,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
     </skill>
 	
@@ -2374,7 +2497,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="damageId" value="67228984" />	
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 	</skill>
 	
@@ -2395,7 +2518,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="damageId" value="67229084" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 	</skill>
 	
@@ -2416,7 +2539,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="damageId" value="67229184" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 	</skill>
 	
@@ -2437,7 +2560,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="damageId" value="67229184" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 	</skill>
 	
@@ -2458,7 +2581,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="damageId" value="67229184" />
 		<cond>
-			<using weapon="DISC" msg="Используется только с диском."/>
+			<using weapon="DISC" msg="It is used only with a disk."/>
 		</cond>	
 	</skill>
 	
@@ -2590,7 +2713,7 @@
 		<set name="implemented" value="true" />
         <for>
 			<effect id="501200" time="15" count="1" type="BUFF" stackType="attack_speed_up" >
-				<mul stat="atkSpd" order="0x30" val="1.2" />
+				<mul stat="atkSpd" order="0x30" val="1.5" />
 			</effect>
 		</for>
     </skill>

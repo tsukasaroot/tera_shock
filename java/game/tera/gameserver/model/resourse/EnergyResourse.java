@@ -37,8 +37,11 @@ public class EnergyResourse extends ResourseInstance
 		// увеличиваем уровень сбора
 		player.setEnergyLevel(player.getEnergyLevel() + 1);
 
+		if (player.getEnergyLevel() >= 4)
+			player.sendMessage("You have reached max level for "+ getTemplate().getType() +"! Here a git!");
+
 		// отправляю сообщение
-		player.sendPacket(ResourseIncreaseLevel.getInstance(getTemplate().getType(), player.getEnergyLevel()), true);
+		player.sendPacket(ResourseIncreaseLevel.getInstance(getTemplate().getType(), player.getEnergyLevel(), player), true);
 
 		// обновляю статы
 		player.updateInfo();

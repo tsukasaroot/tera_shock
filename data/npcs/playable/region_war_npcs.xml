@@ -2,12 +2,13 @@
 <list>
 	<!-- Bastion -->
 	<!-- Warrior Castanic Female -->
+	<!-- Original class was REGION_WAR_DEFENSE-->
 	<template id="21001" iconId="10801" name="*Бандит*" title="Молния" appearance="top_warrior_female" class="REGION_WAR_DEFENSE" type="300" level="60" exp="0" attack="180000" defense="5000" impact="1500" balance="10000" maxHp="200000" maxMp="3000" atkSpd="156" runSpd="142" critRate="135" critRcpt="135" geomRadius="20" geomHeight="60" aggro="700" fractionRange="300" owerturnTime="2500" fractionId="Захватчик Veritas District" skills="30001;30002;30003;30004;30005;30006;30007;30008;30009;30010;30011;30012;30013;" >
 		<add stat="weakRcpt" order="0x40" val="95" />
 		<add stat="dmgRcpt" order="0x40" val="72" />
 		<add stat="stunRcpt" order="0x40" val="48" />
 		<mul stat="cAtk" order="0x15" val="1.35" />
-	</template>
+	</template>-
 	
 	<!-- Sorc Elf Male -->
 	<template id="21002" iconId="10305" name="*Бандит*" title="Волшебник" appearance="top_sorcerer_male" class="REGION_WAR_DEFENSE" type="300" level="60" exp="0" attack="220000" defense="4000" impact="1500" balance="7000" maxHp="200000" maxMp="3000" atkSpd="172" runSpd="136" critRate="62" critRcpt="37" geomRadius="20" geomHeight="60" aggro="700" fractionRange="300" owerturnTime="2500" fractionId="Захватчик Veritas District" skills="31000;31001;31002;31004;31010;31011;31013;31014;31015;31016;" >

@@ -2853,53 +2853,77 @@
 	<weapon id="13013" type="disc" name="Swirling Sable disc" requiredLevel="58" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	<weapon id="13005" type="disc" name="Wheel of Fortune" requiredLevel="58" rank="common" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	
-	<!-- EPIC final -->
-	<weapon id="12805" type="disc" name="Wheel Within Wheels" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
+	<!-- Endgame disc have to fix base power and impact factor -->
+	<weapon id="12805" type="disc" name="Wheel Within Wheels" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="4" enchantable="true" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
 		<funcs>
-				<add stat="regMp" order="0x40" val="53"/> 
-
-				<!-- Value to check -->
-				<mul stat="atk" order="0x50" val="1.045" >
-					<target npcType="MINION_LEADER" />
-				
-				<mul stat="atk" order="0x50" val="1.3" />
-
-				<mul stat="atk" order="0x50" val="1.051">
-					<and>
-						<target npcType="MONSTER"/>
-						<target side="BEHIND"/>
-					</and>
-				</mul>
-				<mul stat="atk" order="0x50" val="1.03">
-					<target aggroMe="true"/>
-				</mul>				
-				<mul stat="atk" order="0x50" val="1.053">
-					<and>
-						<target npcType="MONSTER"/>
-						<target owerturned="true"/>
-					</and>
-				</mul> 		
-				<mul stat="atk" order="0x50" val="1.06">
-					<target npcRage="true"/>
-				</mul>				
+			<add stat="regMp" order="0x40" val="53"/> 
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>				
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul> 		
+			<mul stat="atk" order="0x50" val="1.06">
+				<target npcRage="true"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="5.5"/>
 		</funcs>
 	</weapon>
 	
-	<weapon id="12941" type="disc" name="Widdershins" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
+	<weapon id="12941" type="disc" name="Widdershins" requiredLevel="58" rank="epic" bindType="unknown" attack="0" impact="16238" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	<weapon id="12757" type="disc" name="Xeric Tempest disc" requiredLevel="58" rank="rare" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	
-	<!-- EPIC intermediate -->
 	<weapon id="10397" type="disc" name="Forgotten Crescent" requiredLevel="60" rank="rare" bindType="onEquip" attack="3509" impact="13025" sockets="3" enchantable="false" extractable="12" remodelable="true" tradable="true" sellable="false" bank="true" guildBank="true" buyPrice="4324882" sellPrice="432488">
 		<funcs>
 			<add stat="regMp" order="0x40" val="47"/> 			
 		</funcs>
-	</weapon>
+	</weapon>		
 	
-	<weapon id="10493" type="disc" name="Midnightfire" requiredLevel="60" rank="epic" bindType="unknown" attack="0" impact="0" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
-
+	<!-- Intermediate disc -->
+	<weapon id="10493" type="disc" name="Midnightfire" requiredLevel="60" rank="epic" bindType="unknown" attack="3668" impact="17012" sockets="4" enchantable="false" extractable="13" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0">
+		<funcs>
+			<add stat="regMp" order="0x40" val="53"/>
+			<add stat="rCrit" order="0x40" val="20"/>
+			
+			<mul stat="atk" order="0x50" val="1.045" >
+				<target npcType="MINION_LEADER" />
+			</mul>
+			<mul stat="atk" order="0x50" val="1.051">
+				<and>
+					<target npcType="MONSTER"/>
+					<target side="BEHIND"/>
+				</and>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.03">
+				<target aggroMe="true"/>
+			</mul>				
+			<mul stat="atk" order="0x50" val="1.053">
+				<and>
+					<target npcType="MONSTER"/>
+					<target owerturned="true"/>
+				</and>
+			</mul> 
+			<mul stat="atk" order="0x50" val="1.06">
+				<target npcRage="true"/>
+			</mul>
+			<mul stat="atk" order="0x50" val="1.2" />
+		</funcs>
+	</weapon>
 	<weapon id="10269" type="disc" name="Repribond" requiredLevel="60" rank="uncommon" bindType="unknown" attack="0" impact="0" sockets="0" enchantable="false" extractable="10" remodelable="true" tradable="false" sellable="false" bank="false" guildBank="false" buyPrice="0" sellPrice="0"/>
 	
-	<weapon id="10109" type="disc" name="Reprogrammed Graticule" requiredLevel="60" rank="epic" bindType="unknown" attack="3668" impact="17012" sockets="4" enchantable="false" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">
+	<weapon id="10109" type="disc" name="Reprogrammed Graticule" requiredLevel="60" rank="common" bindType="unknown" attack="3668" impact="17012" sockets="4" enchantable="true" extractable="13" remodelable="true" tradable="true" sellable="true" bank="true" guildBank="true" buyPrice="720813" sellPrice="72081">
 		<funcs>
 			<add stat="regMp" order="0x40" val="34"/> 			
 		</funcs>

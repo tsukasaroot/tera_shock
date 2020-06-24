@@ -29,7 +29,7 @@ public class ConfigCommand extends AbstractCommand
 
 				if(vals.length < 3)
 				{
-					player.sendMessage("не хватает аргументов.");
+					player.sendMessage("not enough arguments.");
 					return;
 				}
 
@@ -49,7 +49,7 @@ public class ConfigCommand extends AbstractCommand
 
 					field.set(null, val);
 
-					player.sendMessage("Новое значение: " + field.get(null));
+					player.sendMessage("new value: " + field.get(null));
 				}
 				catch(NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e)
 				{
