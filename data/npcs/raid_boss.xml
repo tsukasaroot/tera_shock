@@ -3,7 +3,7 @@
     <template id="100" name="Khuljarak" class="RAID_BOSS" type="472" level="50" exp="1000000" attack="400000" defense="3500" impact="3000" balance="30000" maxHp="5000000" maxMp="100000" atkSpd="120" runSpd="300" regHp="10000" regMp="10000" geomRadius="110" geomHeight="120" critRate="150" turnSpeed="12000" skills="17000;17001;17002;17003;17004;17005;17006;17007;17008;17009;17010;">
     	<add stat="weakRcpt" order="0x40" val="90" />
 		<add stat="dmgRcpt" order="0x40" val="90" />
-		<add stat="stunRcpt" order="0x40" val="90" />
+		<add stat="stunRcpt" order="0x40" val="10000" />
 		
 		<mul stat="cAtk" order="0x30" val="2" >
 			<player percentHp="60" />
@@ -76,10 +76,8 @@
 	</template>
 	
 	
-		
-	
 	<!-- жук цф -->
-	<template id="8005" name="Nightmare Auricadis" class="RAID_BOSS" type="725" level="60" exp="2000000" attack="800000" defense="10000" impact="6000" balance="60000" maxHp="10000000" maxMp="100000" atkSpd="120" runSpd="250" regHp="10000" regMp="10000" geomRadius="150" geomHeight="100" critRate="150" turnSpeed="12000" skills="17022;17023;17024;17025;17026;17027;17028;17029;17030;17031;17032;17033;">
+	<template id="8005" name="Nightmare Auricadis" class="RAID_BOSS" type="725" level="60" exp="2000000" attack="800000" defense="10000" impact="6000" balance="60000" maxHp="10000000" maxMp="100000" atkSpd="150" runSpd="250" regHp="10000" regMp="10000" geomRadius="150" geomHeight="100" critRate="150" turnSpeed="12000" skills="17022;17023;17024;17025;17026;17027;17028;17029;17030;17031;17032;17033;">
     	<add stat="weakRcpt" order="0x40" val="90" />
 		<add stat="dmgRcpt" order="0x40" val="90" />
 		<add stat="stunRcpt" order="0x40" val="90" />
@@ -91,7 +89,7 @@
 		<mul stat="cAtk" order="0x30" val="2" >
 			<player percentHp="5" />
 		</mul>
-		<mul stat="atk" order="0x50" val="5.1" />
+		<mul stat="atk" order="0x50" val="8.9" />
 	</template>
 	
 	
