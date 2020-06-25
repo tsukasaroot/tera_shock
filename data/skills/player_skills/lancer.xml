@@ -745,14 +745,15 @@
 		</for>
     </skill>	
 	
+	<!-- Delay 100 90 moveTime 700 500 moveDelay 100 100 hitTime 1300 1700 -->
 	<skill id="67289864" class="1" name="Shield Barrage X" levels="2">
         <table name="#power">391 498</table>  
 		<table name="#moveDistance">100 90</table> 	
 		<table name="#moveTime">700 500</table> 	
 		<table name="#moveDelay">100 100</table> 	
 		<table name="#chance">0 97</table>		
-		<table name="#hitTime">1300 1700</table>	
-		<table name="#delay">500 500</table>			
+		<table name="#hitTime">900 600</table>	
+		<table name="#delay">50 40</table>			
 		<table name="#targetType">TARGET_AURA TARGET_AURA</table> 		
         <set name="power" value="#power"/>
         <set name="operateType" value="ACTIVE"/>
@@ -780,13 +781,14 @@
 		</for>
     </skill>	
 
+	<!-- delay 2000 500 moveDelay 1300 200 moveTime 1200 800 hitTime 4300 2900 -->
     <skill id="67238964" class="1" name="Spring Attack I" levels="2">
 		<table name="#hasFast">true false</table>
 		<table name="#iconId">67238964 67238994</table>
 		<table name="#delay">2000 500</table>
 		<table name="#moveDelay">1300 200</table>
 		<table name="#moveTime">1200 800</table>
-		<table name="#hitTime">4300 2900</table>
+		<table name="#hitTime">4000 2000</table>
 		<table name="#prevSkillNames">COMBO_ATTACK_3;SHIELD_BASH;SHIELD_BARRAGE UNKNOWN</table>
         <set name="power" value="48"/>
         <set name="operateType" value="ACTIVE"/>
@@ -1472,9 +1474,10 @@
 		<set name="implemented" value="true" />
     </skill>
 	
+	<!-- power 7631 reusedelay 60000-->
 	<skill id="67269664" class="1" name="Second Wind VIII" levels="1">
-        <set name="power" value="7631" />
-		<set name="reuseDelay" value="60000"/>
+        <set name="power" value="100000" />
+		<set name="reuseDelay" value="3000"/>
 		<set name="delay" value="500"/>
 		<set name="targetType" value="TARGET_SELF"/>		
 		<set name="skillType" value="HEAL" />
