@@ -137,7 +137,7 @@
 			<mul stat="rCrit" order="0x30" val="1.01" >
 				<target side="BEHIND"/>
 			</mul>
-		</for>			
+		</for>
 	</skill>
 	
 	<skill id="19301" class="-4" name="Weaponforger" levels="1">

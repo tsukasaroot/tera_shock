@@ -25,7 +25,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -59,7 +59,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -93,7 +93,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -127,7 +127,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -162,7 +162,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -196,7 +196,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -230,7 +230,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -264,7 +264,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -298,7 +298,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -332,7 +332,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -366,7 +366,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -414,7 +414,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -442,7 +442,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -470,7 +470,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -498,7 +498,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -538,7 +538,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -578,7 +578,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -618,7 +618,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -658,7 +658,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -698,7 +698,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -738,7 +738,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.3" />	
@@ -762,8 +762,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -785,8 +785,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -808,8 +808,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -831,8 +831,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -854,8 +854,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -877,8 +877,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -900,8 +900,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -923,8 +923,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -946,8 +946,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -969,8 +969,8 @@
 		<set name="implemented" value="true" />
         <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100400" msg="Отсутствует эффект Vortex Slash Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100400" msg="Missing Vortex Slash active effect." />
 			</and>
 		</cond>
     </skill>
@@ -993,7 +993,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1020,7 +1020,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1047,7 +1047,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1074,7 +1074,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1101,7 +1101,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1128,7 +1128,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1155,7 +1155,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1182,7 +1182,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1209,7 +1209,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1236,7 +1236,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="101200" time="10" count="1" type="DEBUFF" stackType="defense_factor_down" chance="97" debuff="true" >
@@ -1275,7 +1275,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1312,7 +1312,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1349,7 +1349,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1386,7 +1386,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1423,7 +1423,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1460,7 +1460,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1497,7 +1497,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1534,7 +1534,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1571,7 +1571,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.2" />	
@@ -1841,7 +1841,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1856,7 +1856,7 @@
         <set name="hitTime" value="2000"/>
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1872,7 +1872,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1888,7 +1888,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1904,7 +1904,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1920,7 +1920,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1936,7 +1936,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1952,7 +1952,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1968,7 +1968,7 @@
 		<set name="owerturnMod" value="0" />
         <set name="implemented" value="true" />
 		<cond>
-			<player owerturned="true" msg="Вы не опрокинуты."/>
+			<player owerturned="true" msg="You are not knock-down."/>
 		</cond>
     </skill>
 	
@@ -1991,7 +1991,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2019,7 +2019,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2047,7 +2047,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2075,7 +2075,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2103,7 +2103,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2131,7 +2131,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2159,7 +2159,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2187,7 +2187,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -2215,7 +2215,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2246,7 +2246,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2277,7 +2277,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2308,7 +2308,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2339,7 +2339,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2370,7 +2370,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2401,7 +2401,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for> 
 			<effect id="101400" time="10" count="1" type="DEBUFF" stackType="speed_down" chance="100" debuff="true" >
@@ -2430,7 +2430,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2456,7 +2456,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2482,7 +2482,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2508,7 +2508,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2534,7 +2534,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2560,7 +2560,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2586,7 +2586,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -2611,7 +2611,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100500" time="2" count="5" type="DAM_OVER_TIME" power="116" stackType="poison" chance="97" debuff="true" />
@@ -2634,7 +2634,7 @@
 		<set name="owerturnMod" value="0.2" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100501" time="2" count="5" type="DAM_OVER_TIME" power="175" stackType="poison" chance="97" debuff="true" />
@@ -2658,7 +2658,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100502" time="2" count="5" type="DAM_OVER_TIME" power="292" stackType="poison" chance="97" debuff="true" />
@@ -2682,7 +2682,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100503" time="2" count="5" type="DAM_OVER_TIME" power="438" stackType="poison" chance="97" debuff="true" />
@@ -2706,7 +2706,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100504" time="2" count="5" type="DAM_OVER_TIME" power="612" stackType="poison" chance="97" debuff="true" />
@@ -2730,7 +2730,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100504" time="2" count="5" type="DAM_OVER_TIME" power="845" stackType="poison" chance="27" debuff="true" />
@@ -2754,7 +2754,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100504" time="2" count="5" type="DAM_OVER_TIME" power="1028" stackType="poison" chance="97" debuff="true" />
@@ -2781,7 +2781,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -2809,7 +2809,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -2836,7 +2836,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -2863,7 +2863,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -2890,7 +2890,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -2917,7 +2917,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -2958,7 +2958,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
     </skill>
 	
@@ -2996,7 +2996,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
     </skill>
 	
@@ -3034,7 +3034,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
     </skill>
 
@@ -3072,7 +3072,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
     </skill>
 	
@@ -3110,7 +3110,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
     </skill>
 	
@@ -3148,7 +3148,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
     </skill>
 	
@@ -3189,7 +3189,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
@@ -3235,7 +3235,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
@@ -3281,7 +3281,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
@@ -3327,7 +3327,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
@@ -3373,7 +3373,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true" stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
@@ -3419,7 +3419,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for>
 			<effect id="100600" time="5" count="1" type="DEBUFF" dynamicTime="true"  stackType="defense_factor_down" resistType="weakResist" chance="100" debuff="true" >
@@ -3620,7 +3620,7 @@
 		<set name="castToMove" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3646,7 +3646,7 @@
 		<set name="castToMove" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3672,7 +3672,7 @@
 		<set name="castToMove" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3698,7 +3698,7 @@
 		<set name="castToMove" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3724,7 +3724,7 @@
 		<set name="castToMove" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3750,7 +3750,7 @@
 		<set name="castToMove" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3789,7 +3789,7 @@
 		<set name="evasion" value="true" />
 		<set name="implemented" value="false" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>	
 		<for> 
 			<effect id="100400" time="5" count="1" onCaster="true" type="BUFF" /> 
@@ -3813,7 +3813,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
 		<for>
 			<effect id="100900" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
@@ -3841,7 +3841,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
+			<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
 		</cond>
     </skill>
 	
@@ -3863,8 +3863,8 @@
 		<set name="implemented" value="true" />
          <cond>
 			<and>
-				<using weapon="TWIN_SWORDS" msg="Используется только с дуалами."/>
-				<has effectId="100700" msg="Отсутствует эффект Staggering Counter Active." />
+				<using weapon="TWIN_SWORDS" msg="Can only be used with double swords."/>
+				<has effectId="100700" msg="Missing staggering counter active effect." />
 			</and>
 		</cond>
 		<for>

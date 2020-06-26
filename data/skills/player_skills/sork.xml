@@ -417,10 +417,11 @@
 		<set name="implemented" value="true" />
 		<cond>
 			<using weapon="DISC" msg="It is used only with a disk."/>
-		</cond>	
+		</cond>
     </skill>
 	
 	<skill id="67189864" class="4" name="Flame Pillar X" levels="1">
+		<set name="skillName" value="FLAME_PILLAR"/>
 		<set name="reuseDelay" value="4000" />
 		<set name="targetType" value="TARGET_AREA" />		
 		<set name="range" value="60"/>
@@ -2289,20 +2290,22 @@
 		</for>
     </skill>
 
+	<!-- interval 300 delay 500 reuse 12000 hitTime 12000-->
+
 	<skill id="67368964" class="4" name="Teleport Jaunt" levels="1">
         <set name="operateType" value="ACTIVE"/>
         <set name="skillType" value="TELEPORT_JUMP"/>
         <set name="targetType" value="TARGET_SELF"/>
 		<set name="rangeType" value="OTHER_SKILL" />
         <set name="mpConsume" value="120"/>
-		<set name="castCount" value="2"/>
+		<set name="castCount" value="1"/>
 		<set name="interval" value="300"/>
 		<set name="delay" value="500"/>
         <set name="moveDistance" value="300"/>
 		<set name="moveDelay" value="400"/>
 		<set name="moveTime" value="100"/>
-        <set name="hitTime" value="1400"/>
-        <set name="reuseDelay" value="12000"/>
+        <set name="hitTime" value="570"/>
+        <set name="reuseDelay" value="1000"/>
 		<set name="ignoreBarrier" value="true" />
 		<set name="evasion" value="true" />		
         <set name="implemented" value="true" />
@@ -2460,24 +2463,35 @@
 		</cond>	
     </skill>
 	
+	<!-- 7200 reuse delay 12000-->
+	
 	<skill id="67169464" class="4" name="Fireblast VI" levels="1">
+		<table name="#hasFast">true false</table>
+		<table name="#hitTime">7200 6900</table>
+		<table name="#delay">6500</table>
+		<table name="#reuseDelay">12000 12000</table>
+	
         <set name="operateType" value="ACTIVE"/>
 		<set name="power" value="4311"/>
         <set name="skillType" value="STRIKE"/>
         <set name="targetType" value="TARGET_AREA"/>
 		<set name="rangeType" value="RANGE_SKILL" />
-        <set name="hitTime" value="8000"/>
+        <set name="hitTime" value="#hitTime"/>
 		<set name="mpConsume" value="1000"/>
 		<set name="radius" value="120"/>
 		<set name="range" value="250"/>
-		<set name="delay" value="6500"/>
-        <set name="reuseDelay" value="12000"/>
+		<set name="delay" value="#delay"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="reuseId" value="67169464"/>
+		<set name="hasFast" value="#hasFast" />
+		<!--<set name="prevSkillNames" value="FLAME_PILLAR" />-->
+
 		<set name="damageId" value="67188964" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
 			<using weapon="DISC" msg="It is used only with a disk."/>
-		</cond>	
+		</cond>
     </skill>
 	
 	<skill id="67228964" class="4" name="Void Pulse I" levels="1">
@@ -2661,11 +2675,15 @@
 		<set name="mpConsume" value="400" />
         <set name="hitTime" value="1500"/>
 		<set name="delay" value="1000"/>
-        <set name="reuseDelay" value="10000"/>
+        <set name="reuseDelay" value="12000"/>
 		<set name="implemented" value="true" />
         <for>
 			<effect id="500100" time="20" count="1" type="BUFF" noAttack="true" stackType="damage_up" >
 				<mul stat="atk" order="0x50" val="1.25" />
+				<mul stat="rCrit" order="0x30" val="1.6" />
+				<mul stat="cAtk" order="0x50" val="1.9" >
+					<target side="BEHIND"/>
+				</mul>
 			</effect>
 		</for>
     </skill>
@@ -2713,7 +2731,7 @@
 		<set name="implemented" value="true" />
         <for>
 			<effect id="501200" time="15" count="1" type="BUFF" stackType="attack_speed_up" >
-				<mul stat="atkSpd" order="0x30" val="1.5" />
+				<mul stat="atkSpd" order="0x30" val="1.25" />
 			</effect>
 		</for>
     </skill>

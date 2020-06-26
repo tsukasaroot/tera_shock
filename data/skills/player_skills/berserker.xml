@@ -26,7 +26,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>			
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -61,7 +61,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -96,7 +96,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -131,7 +131,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -166,7 +166,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -201,7 +201,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -236,7 +236,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -271,7 +271,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -306,7 +306,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -341,7 +341,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -376,7 +376,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -393,7 +393,7 @@
 		<set name="mpConsume" value="100" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 	</skill>
 
@@ -414,7 +414,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>	
 	
@@ -435,7 +435,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -456,7 +456,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -477,7 +477,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -498,7 +498,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -519,7 +519,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -540,7 +540,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -561,7 +561,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -582,7 +582,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -603,7 +603,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
     </skill>
 	
@@ -622,7 +622,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for>
 			<effect id="400200" time="3" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
@@ -646,7 +646,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for>
 			<effect id="400200" time="3" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
@@ -670,7 +670,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for>
 			<effect id="400200" time="3" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
@@ -694,7 +694,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<for>
 			<effect id="400200" time="3" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
@@ -718,7 +718,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -742,7 +742,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -766,7 +766,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -790,7 +790,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -814,7 +814,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -838,7 +838,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -862,7 +862,7 @@
         <set name="delay" value="1000"/>
 		<set name="implemented" value="true" />
         <cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>		
 		<cast>
 			<mul stat="atk" order="0x50" val="5" >
@@ -1084,7 +1084,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -1120,7 +1120,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -1158,7 +1158,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1199,7 +1199,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1240,7 +1240,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1281,7 +1281,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1322,7 +1322,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1363,7 +1363,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1404,7 +1404,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1447,7 +1447,7 @@
 		<set name="implemented" value="true" />
 		<set name="owerturnMod" value="#owerturnMod" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1483,7 +1483,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -1517,7 +1517,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>
     </skill>
 	
@@ -1553,7 +1553,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1592,7 +1592,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1631,7 +1631,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1670,7 +1670,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1709,7 +1709,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1748,7 +1748,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1787,7 +1787,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -1958,7 +1958,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -1992,7 +1992,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -2028,7 +2028,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2067,7 +2067,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2106,7 +2106,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2145,7 +2145,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2181,7 +2181,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -2215,7 +2215,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill>
 	
@@ -2251,7 +2251,7 @@
 		<set name="blockingMove" value="#blockingMove" />
 		<set name="correctableTarget" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2290,7 +2290,7 @@
 		<set name="blockingMove" value="#blockingMove" />
 		<set name="correctableTarget" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2329,7 +2329,7 @@
 		<set name="blockingMove" value="#blockingMove" />
 		<set name="correctableTarget" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
 		<cast>
 			<mul stat="runSpd" order="0x50" val="0.5" />	
@@ -2521,7 +2521,7 @@
 		<set name="correctableTarget" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="AXE" msg="Используется только с топором." />
+			<using weapon="AXE" msg="Can only be used with an axe." />
 		</cond>	
     </skill> -->
 </list>

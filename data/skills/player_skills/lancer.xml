@@ -29,7 +29,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -67,7 +67,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -105,7 +105,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -143,7 +143,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -181,7 +181,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -219,7 +219,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -257,7 +257,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -295,7 +295,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -333,7 +333,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -371,7 +371,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -409,7 +409,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="900100" time="3" count="1" type="DEBUFF" stackType="combo_slow" debuff="true" >
@@ -426,7 +426,7 @@
 		<set name="mpConsume" value="30" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 	</skill>	
       
@@ -456,7 +456,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -491,7 +491,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -526,7 +526,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -561,7 +561,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -596,7 +596,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -631,7 +631,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -666,7 +666,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -701,7 +701,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -736,7 +736,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -749,11 +749,11 @@
 	<skill id="67289864" class="1" name="Shield Barrage X" levels="2">
         <table name="#power">391 498</table>  
 		<table name="#moveDistance">100 90</table> 	
-		<table name="#moveTime">700 500</table> 	
+		<table name="#moveTime">50 50</table> 	
 		<table name="#moveDelay">100 100</table> 	
 		<table name="#chance">0 97</table>		
-		<table name="#hitTime">900 600</table>	
-		<table name="#delay">50 40</table>			
+		<table name="#hitTime">900 500</table>	
+		<table name="#delay">50 50</table>			
 		<table name="#targetType">TARGET_AURA TARGET_AURA</table> 		
         <set name="power" value="#power"/>
         <set name="operateType" value="ACTIVE"/>
@@ -772,7 +772,7 @@
 		<set name="moveTime" value="#moveTime" />
 		<set name="moveDelay" value="#moveDelay" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200800" time="2" count="1" type="STUN" chance="#chance" stackType="stun" debuff="true" >
@@ -781,14 +781,13 @@
 		</for>
     </skill>	
 
-	<!-- delay 2000 500 moveDelay 1300 200 moveTime 1200 800 hitTime 4300 2900 -->
     <skill id="67238964" class="1" name="Spring Attack I" levels="2">
 		<table name="#hasFast">true false</table>
 		<table name="#iconId">67238964 67238994</table>
 		<table name="#delay">2000 500</table>
 		<table name="#moveDelay">1300 200</table>
 		<table name="#moveTime">1200 800</table>
-		<table name="#hitTime">4000 2000</table>
+		<table name="#hitTime">4000 2900</table>
 		<table name="#prevSkillNames">COMBO_ATTACK_3;SHIELD_BASH;SHIELD_BARRAGE UNKNOWN</table>
         <set name="power" value="48"/>
         <set name="operateType" value="ACTIVE"/>
@@ -813,7 +812,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -848,7 +847,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -883,7 +882,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -918,7 +917,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -953,7 +952,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -988,7 +987,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -1023,7 +1022,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -1058,7 +1057,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -1093,9 +1092,11 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
+	
+	<!-- 4300 2900 -->
 	
 	<skill id="67239864" class="1" name="Spring Attack X" levels="2">
         <table name="#hasFast">true false</table>
@@ -1103,7 +1104,7 @@
 		<table name="#delay">2000 500</table>
 		<table name="#moveDelay">1300 200</table>
 		<table name="#moveTime">1200 800</table>
-		<table name="#hitTime">4300 2900</table>
+		<table name="#hitTime">4300 1000</table>
 		<table name="#prevSkillNames">COMBO_ATTACK_3;SHIELD_BASH;SHIELD_BARRAGE UNKNOWN</table>
         <set name="power" value="1584"/>
         <set name="operateType" value="ACTIVE"/>
@@ -1123,12 +1124,12 @@
 		<set name="moveDistance" value="80" />
 		<set name="moveDelay" value="#moveDelay" />
 		<set name="moveTime" value="#moveTime" />
-		<set name="castCount" value="3" />	
+		<set name="castCount" value="3" />
 		<set name="interval" value="150" />
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -1147,7 +1148,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200400" time="2" count="1" type="STUN" chance="97" stackType="stun" debuff="true" >
@@ -1175,7 +1176,7 @@
 		<set name="forceCast" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -1203,7 +1204,7 @@
 		<set name="forceCast" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -1231,7 +1232,7 @@
 		<set name="forceCast" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -1259,7 +1260,7 @@
 		<set name="forceCast" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -1287,7 +1288,7 @@
 		<set name="forceCast" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -1315,7 +1316,7 @@
 		<set name="forceCast" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<cast>
 			<mul stat="def" order="0x50" val="1.5" />	
@@ -1341,7 +1342,7 @@
 		<set name="moveDelay" value="400"/>
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200300" time="15" count="1" type="DEBUFF" chance="97" stackType="defense_factor_down" debuff="true" >
@@ -1367,7 +1368,7 @@
 		<set name="moveDelay" value="400"/>
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200300" time="15" count="1" type="DEBUFF" chance="97" stackType="defense_factor_down" debuff="true" >
@@ -2064,7 +2065,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2082,7 +2083,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2100,7 +2101,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2118,7 +2119,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2136,7 +2137,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2154,7 +2155,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2172,7 +2173,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2190,7 +2191,7 @@
 		<set name="owerturnMod" value="0.1" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2207,7 +2208,7 @@
 		<set name="blockingMove" value="false" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="201200" time="15" count="1" type="DEBUFF" stackType="full_speed_down" chance="97" debuff="true" >
@@ -2232,7 +2233,7 @@
 		<set name="noCaster" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200200" time="30" count="1" type="BUFF" stackType="defense_factor_up" noOwerturn="true" >
@@ -2256,7 +2257,7 @@
 		<set name="noCaster" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200201" time="40" count="1" type="BUFF" stackType="defense_factor_up" noOwerturn="true" >
@@ -2357,7 +2358,7 @@
         <set name="reuseDelay" value="300000"/>
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
     </skill>
 	
@@ -2377,7 +2378,7 @@
 		<set name="moveTime" value="1000" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="201100" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
@@ -2402,7 +2403,7 @@
 		<set name="moveTime" value="1000" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="201101" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
@@ -2427,7 +2428,7 @@
 		<set name="moveTime" value="1000" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for> 
 			<effect id="201102" time="5" count="1" type="DEBUFF" stackType="speed_down" chance="97" debuff="true" >
@@ -2546,7 +2547,7 @@
 		<set name="noCaster" value="true" />
 		<set name="implemented" value="true" />
 		<cond>
-			<using weapon="LANCE" msg="Используется только с копьем."/>
+			<using weapon="LANCE" msg="Can only be used with a lance."/>
 		</cond>
 		<for>
 			<effect id="200900" time="12" count="1" type="DAMAGE_TRANSFER" stackType="transfer_damage" />
