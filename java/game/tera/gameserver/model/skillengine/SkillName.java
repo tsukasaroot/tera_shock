@@ -34,6 +34,6 @@ public enum SkillName
 	TRIPLE_NEMESIS,
 	
 	LEASH,
-	
+	FLAME_PILLAR,
 	UNKNOWN;	
 }

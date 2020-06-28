@@ -20,7 +20,7 @@ public enum CommandType {
 	/** команды над скилами */
 	SKILL_COMMANDS(SkillCommand.class, 100, "start_skill", "add_skills", "learn_next_skills", "reload_skills", "clear_skills", "get_base_skills", "effect", "charm"),
 	/** целительные команды */
-	HEAL_COMMANDS(HealCommand.class, 100, "set_hp", "set_mp", "heal"),
+	HEAL_COMMANDS(HealCommand.class, 100, "set_hp", "set_mp", "heal", "help_heal"),
 	/** команды разработчиков */
 	DEVELOPER_COMMANDS(DeveloperCommand.class, 100, "event_reg_all_players", "zone", "change_class", "kick", "check_geo", "send_event", "send_system", "send_state", "add_attack", "start_event", "sub_attack",
 			"start_gc", "reload_dialogs", "send_packet", "set_access_level", "get_access_level", "set_heart", "set_level", "send_bytes", "send_file", "get_my_id", "invul", "set_ower_dist",

@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="tera_shock:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/tera_shock_jar</output-path>
+  <artifact type="jar" name="stera:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/stera_jar</output-path>
     <root id="archive" name="tera_shock.jar">
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
