@@ -37,7 +37,7 @@ public class ResourseIncreaseLevel extends ServerPacket
 			ItemTemplate template = null;
 			if (type.name() == "MINING")
 				template = itemTable.getItem(50066);
-			else if (type.name() == "PLANTS")
+			else if (type.name() == "PLANT")
 				template = itemTable.getItem(50051);
 			else if (type.name() == "ENERGY")
 				template = itemTable.getItem(50010);
