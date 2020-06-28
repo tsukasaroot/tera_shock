@@ -216,7 +216,7 @@ public class Tournament extends AbstractAutoEvent
 				}
 
 				// сообщаем об награде
-				player.sendMessage("Вы получили " + reward + " очка(ов) славы.");
+				player.sendMessage("You received " + reward + " glory points.");
 			}
 		}
 
@@ -597,7 +597,7 @@ public class Tournament extends AbstractAutoEvent
 		startLock();
 
 		// сообщаем о бое
-		World.sendAnnounce("Этап " + (level + 1) + " : бой через 1 минуту \"" + first.getName() + "\" Vs \"" + second.getName() + "\"!");
+		World.sendAnnounce("Stage " + (level + 1) + " : battle in 1 minute \"" + first.getName() + "\" Vs \"" + second.getName() + "\"!");
 
 		// ставим стадию запуска боя
 		setState(EventState.RUNNING);
@@ -645,7 +645,7 @@ public class Tournament extends AbstractAutoEvent
 		if(first.isDead() && second.isDead() || !first.isDead() && !second.isDead())
 		{
 			// сообщаем об этом
-			World.sendAnnounce("Победила ничья...");
+			World.sendAnnounce("Draw...");
 
 			// удаляем обе команды
 			teams.fastRemove(second);
@@ -672,7 +672,7 @@ public class Tournament extends AbstractAutoEvent
 			}
 
 			// сообщаем об этом
-			World.sendAnnounce("Победила команда \"" + winner.getName() + "\"!!!");
+			World.sendAnnounce("The team \"" + winner.getName() + "\" won!!!");
 
 			// удаляем проиграввшую команду
 			teams.fastRemove(loser);
@@ -716,7 +716,7 @@ public class Tournament extends AbstractAutoEvent
 		// если игроков не хватает на минимальное кол-во команд
 		if(prepare.size() < (teamSize * Config.EVENT_TMT_MIN_TEAMS - Math.max(0, teamSize - 1)))
 		{
-			World.sendAnnounce("Недостаточное кол-во участников.");
+			World.sendAnnounce("Insufficient number of participants.");
 
 			// ставим сталию финиша
 			setState(EventState.FINISHING);
@@ -748,7 +748,7 @@ public class Tournament extends AbstractAutoEvent
 			if(player.isDead())
 			{
 				// сообщаем ему и пропускаем его
-				player.sendMessage("You is dead.");
+				player.sendMessage("You are dead.");
 				continue;
 			}
 
@@ -869,8 +869,8 @@ public class Tournament extends AbstractAutoEvent
 			team = playerTeams.get(player.getObjectId());
 		}
 
-		World.sendAnnounce("В ивенте будут участвовать " + players.size() + " игрока(ов) и " + teams.size() + " команд(а).");
-		World.sendAnnounce("Через 30 секунд определится первый бой.");
+		World.sendAnnounce("Will participate in the event " + players.size() + " players and " + teams.size() + " teams).");
+		World.sendAnnounce("After 30 seconds, the first battle will be determined.");
 
 		// очищаем зону от левых
 		clearTerritory();

@@ -332,7 +332,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 	@Override
 	protected void prepareEndState() {
 
-		World.sendAnnounce("Бой окончен.");
+		World.sendAnnounce("Fight is over.");
 
 		Spawn[] guards = EventUtils.guards;
 
@@ -380,13 +380,13 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 		int winner = -1;
 
 		if(secondCount > firstCount) {
-			World.sendAnnounce("Победила вторая команда!");
+			World.sendAnnounce("The second team won!");
 			winner = 2;
 		} else if(firstCount > secondCount) {
-			World.sendAnnounce("Победила первая команда!");
+			World.sendAnnounce("The first team won!");
 			winner = 1;
 		} else {
-			World.sendAnnounce("Победивших нет...");
+			World.sendAnnounce("No winners...");
 		}
 
 		if(winner > 0) {
@@ -405,7 +405,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 					player.setVar(EventConstant.VAR_NANE_HERO_POINT, player.getVar(EventConstant.VAR_NANE_HERO_POINT, 0) + reward);
 				}
 
-				player.sendMessage("Вы получили " + reward + " очка(ов) славы.");
+				player.sendMessage("You received " + reward + " glory points.");
 			}
 		}
 
@@ -438,7 +438,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 			Player player = array[i];
 
 			if(player.isDead()) {
-				player.sendMessage("You is dead.");
+				player.sendMessage("You are dead.");
 				continue;
 			}
 
@@ -473,7 +473,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 
 		if(players.size() < MissingConfig.EVENT_TDM_MIN_PLAYERS) {
 
-			World.sendAnnounce("Недостаточное кол-во участников.");
+			World.sendAnnounce("Insufficient number of participants.");
 
 			setState(EventState.FINISHING);
 
@@ -486,7 +486,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 			return;
 		}
 
-		World.sendAnnounce("Бой начнется через 1 минуту.");
+		World.sendAnnounce("The battle will begin in 1 minute.");
 
 		for(Player player : firstTeam.array()) {
 
@@ -567,7 +567,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 			player.updateInfo();
 		}
 
-		World.sendAnnounce("В БОЙ!!!");
+		World.sendAnnounce("TO BATTLE!!!");
 
 		setState(EventState.PREPARE_END);
 

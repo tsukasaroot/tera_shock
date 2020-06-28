@@ -97,7 +97,7 @@ public class DeveloperCommand extends AbstractCommand {
 					return;
 				}
 
-				player.sendMessage("игрок \"" + target.getName() + "\" кикнут.");
+				player.sendMessage("Player \"" + target.getName() + "\" has been kicked.");
 				target.getClient().close();
 				return;
 			}

@@ -93,7 +93,7 @@ public class QuestCommand extends AbstractCommand
 				// если квеста нет, выходим
 				if(quest == null)
 				{
-					player.sendMessage("такого квеста нету.");
+					player.sendMessage("there is no such quest.");
 					return;
 				}
 
@@ -127,7 +127,7 @@ public class QuestCommand extends AbstractCommand
 				// если квеста нет, выходим
 				if(quest == null)
 				{
-					player.sendMessage("такого квеста нету.");
+					player.sendMessage("there is no such quest.");
 					return;
 				}
 

@@ -97,7 +97,7 @@ public class ReplyEventReward extends AbstractReply
 
 				// если выдать итем не удалось, сообщаем
 				if(!inventory.addItem(template.getItemId(), 1, "EventReward"))
-					player.sendMessage("Освободите инвентарь.");
+					player.sendMessage("Empty inventory.");
 				else
 				{
 					// тратим очки

@@ -36,7 +36,7 @@ public class PvPMode extends AbstractSkill
 
 		if(player.getKarma() > 0)
 		{
-			player.sendMessage("Нельзя использовать при наличии кармы(" + player.getKarma() + ").");
+			player.sendMessage("Cannot be used with karma(" + player.getKarma() + ").");
 			return false;
 		}
 
@@ -48,7 +48,7 @@ public class PvPMode extends AbstractSkill
 
 		if(player.isPvPMode() && player.isBattleStanced())
 		{
-			player.sendMessage("Нельзя использовать в боевой стойке.");
+			player.sendMessage("Cannot be used in combat stance.");
 			return false;
 		}
 

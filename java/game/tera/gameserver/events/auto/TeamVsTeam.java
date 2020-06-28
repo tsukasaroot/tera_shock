@@ -323,7 +323,7 @@ public final class TeamVsTeam extends AbstractAutoEvent
 	@Override
 	protected void prepareEndState()
 	{
-		World.sendAnnounce("Бой окончен.");
+		World.sendAnnounce("Fight is over.");
 
 		Spawn[] guards = EventUtils.guards;
 
@@ -337,7 +337,7 @@ public final class TeamVsTeam extends AbstractAutoEvent
 		// если победила вторая тима
 		if(fisrtTeam.isEmpty() && !secondTeam.isEmpty())
 		{
-			World.sendAnnounce("Победила вторая команда!");
+			World.sendAnnounce("The second team won!");
 			winner = 2;
 		}
 		// если победила первая
@@ -378,7 +378,7 @@ public final class TeamVsTeam extends AbstractAutoEvent
 				}
 
 				// сообщаем об награде
-				player.sendMessage("Вы получили " + reward + " очка(ов) славы.");
+				player.sendMessage("You received " + reward + " glory points.");
 			}
 		}
 
@@ -418,7 +418,7 @@ public final class TeamVsTeam extends AbstractAutoEvent
 			if(player.isDead())
 			{
 				// сообщаем ему и пропускаем его
-				player.sendMessage("You is dead.");
+				player.sendMessage("You are dead.");
 				continue;
 			}
 

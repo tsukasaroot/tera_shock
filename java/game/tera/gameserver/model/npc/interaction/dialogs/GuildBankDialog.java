@@ -258,7 +258,7 @@ public final class GuildBankDialog extends AbstractDialog implements BankDialog
 		// если нет прав, выходим
 		if(!rank.isAccessBank())
 		{
-			player.sendMessage("У вас нет прав.");
+			player.sendMessage("You have no rights.");
 			return;
 		}
 
@@ -377,7 +377,7 @@ public final class GuildBankDialog extends AbstractDialog implements BankDialog
 		// если нет прав, выходим
 		if(!rank.isAccessBank())
 		{
-			player.sendMessage("У вас нет прав.");
+			player.sendMessage("You have no rights.");
 			return;
 		}
 
@@ -484,7 +484,7 @@ public final class GuildBankDialog extends AbstractDialog implements BankDialog
 		// если нет прав, выходим
 		if(!rank.isAccessBank())
 		{
-			player.sendMessage("У вас нет прав.");
+			player.sendMessage("You have no rights.");
 			return;
 		}
 
@@ -561,7 +561,7 @@ public final class GuildBankDialog extends AbstractDialog implements BankDialog
 		// если нет прав, выходим
 		if(!rank.isAccessBank())
 		{
-			player.sendMessage("У вас нет прав.");
+			player.sendMessage("You have no rights.");
 			return;
 		}
 

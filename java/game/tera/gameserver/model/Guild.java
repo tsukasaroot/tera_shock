@@ -201,7 +201,7 @@ public final class Guild implements Nameable, Identified
 			player.updateGuild();
 
 			// отправляем сообщение
-			player.sendMessage("Вы изменили ранг, переоткройте окно гильдии.");
+			player.sendMessage("You changed the rank, reopen the guild window.");
 		}
 	}
 
@@ -252,7 +252,7 @@ public final class Guild implements Nameable, Identified
 		player.updateGuild();
 
 		// сообщаем о создании ранга
-		player.sendMessage("Вы создали новый ранг, переоткройте окно гильдии.");
+		player.sendMessage("You have created a new rank, reopen the guild window.");
 	}
 
 	/**
@@ -723,7 +723,7 @@ public final class Guild implements Nameable, Identified
 		player.updateOtherInfo();
 
 		// пишем сообщение о выходе
-		player.sendMessage("Вы вышли из гильдии.");
+		player.sendMessage("You left the guild.");
 
 		// убераем надпись гильдии
 		player.updateGuild();

@@ -292,7 +292,7 @@ public final class LastHero extends AbstractAutoEvent
 	@Override
 	protected void prepareEndState()
 	{
-		World.sendAnnounce("Бой окончен.");
+		World.sendAnnounce("Fight is over.");
 
 		Spawn[] guards = EventUtils.guards;
 
@@ -311,10 +311,10 @@ public final class LastHero extends AbstractAutoEvent
 
 		// если нет победителя
 		if(activePlayers.size() > 1 || player == null)
-			World.sendAnnounce("Победивших нет...");
+			World.sendAnnounce("No winners...");
 		else
 		{
-			World.sendAnnounce("Победил " + player.getName());
+			World.sendAnnounce("Won " + player.getName());
 
 			// подсчитываем уровень
 			int level = 0;
@@ -427,7 +427,7 @@ public final class LastHero extends AbstractAutoEvent
 		// если нужного кол-во не набралось
 		if(players.size() < Config.EVENT_LH_MIN_PLAYERS)
 		{
-			World.sendAnnounce("Недостаточное кол-во участников.");
+			World.sendAnnounce("Insufficient number of participants.");
 
 			// ставим сталию финиша
 			state = EventState.FINISHING;
@@ -446,8 +446,8 @@ public final class LastHero extends AbstractAutoEvent
 			return;
 		}
 
-		World.sendAnnounce("В ивенте будут участвовать " + players.size() + " игрока(ов)");
-		World.sendAnnounce("Бой начнется через 1 минуту.");
+		World.sendAnnounce("Will participate in the event " + players.size() + " player(s)");
+		World.sendAnnounce("The battle will begin in 1 minute.");
 
 		// получаем массив участников
 		array = activePlayers.array();
@@ -523,7 +523,7 @@ public final class LastHero extends AbstractAutoEvent
 			player.updateInfo();
 		}
 
-		World.sendAnnounce("В БОЙ!!!");
+		World.sendAnnounce("TO BATTLE!!!");
 
 		// ставим стадию подготовки к финишу
 		setState(EventState.PREPARE_END);
