@@ -111,7 +111,7 @@ public class ItemCommand extends AbstractCommand
 				String[] vals = values.split(" ");
 
 				//maybe adding count to helper if its necessary argument -> to check
-				if(vals.length < 1) {
+				if(vals.length > 2 || vals.length == 0) {
 					player.sendMessage("Not enough arguments: create_item ID count");
 					return;
 				}
