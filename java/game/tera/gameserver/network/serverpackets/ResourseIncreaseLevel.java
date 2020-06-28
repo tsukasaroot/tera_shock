@@ -33,8 +33,14 @@ public class ResourseIncreaseLevel extends ServerPacket
 		packet.level = level;
 		packet.type = type;
 
-		if (level == Config.WORLD_MAX_COLLECT_LEVEL && type.name() == "MINING") {
-			ItemTemplate template = itemTable.getItem(50066);
+		if (level == Config.WORLD_MAX_COLLECT_LEVEL) {
+			ItemTemplate template = null;
+			if (type.name() == "MINING")
+				template = itemTable.getItem(50066);
+			else if (type.name() == "PLANTS")
+				template = itemTable.getItem(50051);
+			else if (type.name() == "ENERGY")
+				template = itemTable.getItem(50010);
 
 			ItemInstance newItem = template.newInstance();
 
