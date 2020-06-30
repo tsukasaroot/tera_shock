@@ -749,7 +749,7 @@
 	<skill id="67289864" class="1" name="Shield Barrage X" levels="2">
         <table name="#power">391 498</table>  
 		<table name="#moveDistance">100 90</table> 	
-		<table name="#moveTime">50 50</table> 	
+		<table name="#moveTime">700 500</table> 	
 		<table name="#moveDelay">100 100</table> 	
 		<table name="#chance">0 97</table>		
 		<table name="#hitTime">900 500</table>	
@@ -760,7 +760,7 @@
         <set name="skillType" value="STRIKE"/>
 		<set name="skillName" value="SHIELD_BARRAGE"/>
         <set name="targetType" value="#targetType"/>
-        <set name="radius" value="50"/>
+        <set name="radius" value="60"/>
         <set name="mpConsume" value="75"/>
         <set name="hitTime" value="#hitTime"/>
 		<set name="delay" value="#delay"/>
@@ -1372,7 +1372,7 @@
 		</cond>
 		<for>
 			<effect id="200300" time="15" count="1" type="DEBUFF" chance="97" stackType="defense_factor_down" debuff="true" >
-				<mul stat="defenseFactor" order="0x30" val="0.97" />
+				<mul stat="defenseFactor" order="0x30" val="0.91" />
 			</effect>
 		</for>
     </skill>
@@ -2412,17 +2412,19 @@
 		</for>		
     </skill>
 	
+	<!-- range 80 reuseDelay 150000-->
+	
 	<skill id="67319164" class="1" name="Lockdown Blow III" levels="1">
         <set name="power" value="1131"/>
         <set name="operateType" value="ACTIVE"/>
         <set name="skillType" value="STRIKE"/>
         <set name="targetType" value="TARGET_ONE_AREA"/>
         <set name="range" value="80"/>
-		<set name="radius" value="50"/>
+		<set name="radius" value="100"/>
         <set name="mpConsume" value="200"/>
 		<set name="delay" value="600"/>
         <set name="hitTime" value="2000"/>
-        <set name="reuseDelay" value="15000"/>
+        <set name="reuseDelay" value="1000"/>
 		<set name="owerturnMod" value="0.1" />
 		<set name="moveDistance" value="100" />
 		<set name="moveTime" value="1000" />

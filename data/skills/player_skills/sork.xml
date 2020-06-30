@@ -1796,10 +1796,12 @@
 		</cond>
     </skill>
 	
+	<!-- hitTime 5000 5000 delay 500 interval 1500-->
+	
 	<skill id="67309264" class="4" name="Flaming Barrage IV" levels="11">
         <table name="#skillType">LOCK_ON LOCK_ON_STRIKE</table>
 		<table name="#operateType">LOCK_ON ACTIVE</table>
-		<table name="#hitTime">5000 5000</table>
+		<table name="#hitTime">5000 4000</table>
 		<table name="#reuseDelay">0 3000</table>
 		<table name="#blockingMove">false true</table>
 		<table name="#mpConsume">600 600</table>
@@ -1810,12 +1812,12 @@
         <set name="targetType" value="LOCK_ON_WAR"/>
 		<set name="rangeType" value="RANGE_SKILL" />
         <set name="range" value="510"/>
-		<set name="delay" value="500"/>
+		<set name="delay" value="700"/>
         <set name="mpConsume" value="#mpConsume"/>
         <set name="maxTargets" value="4"/>
         <set name="hitTime" value="#hitTime"/>
 		<set name="castCount" value="#castCount"/>
-		<set name="interval" value="1500"/>
+		<set name="interval" value="800"/>
 		<set name="staticInterval" value="true"/>
         <set name="reuseDelay" value="#reuseDelay"/>
 		<set name="reuseId" value="67309264"/>
@@ -2298,16 +2300,16 @@
         <set name="targetType" value="TARGET_SELF"/>
 		<set name="rangeType" value="OTHER_SKILL" />
         <set name="mpConsume" value="120"/>
-		<set name="castCount" value="1"/>
+		<set name="castCount" value="2"/>
 		<set name="interval" value="300"/>
 		<set name="delay" value="500"/>
         <set name="moveDistance" value="300"/>
 		<set name="moveDelay" value="400"/>
 		<set name="moveTime" value="100"/>
         <set name="hitTime" value="570"/>
-        <set name="reuseDelay" value="1000"/>
+        <set name="reuseDelay" value="12000"/>
 		<set name="ignoreBarrier" value="true" />
-		<set name="evasion" value="true" />		
+		<set name="evasion" value="true" />
         <set name="implemented" value="true" />
 		<cond>
 			<and>
@@ -2714,7 +2716,7 @@
         <set name="reuseDelay" value="90000"/>
 		<set name="implemented" value="true" />
         <for>
-			<effect id="500601" time="45" count="1" type="DAMAGE_ABSORPTION" stackType="absorb_damage" power="13529" value="33" />
+			<effect id="500601" time="45" count="1" type="DAMAGE_ABSORPTION" stackType="absorb_damage" power="50000" value="33" />
 		</for>
     </skill>
 	
@@ -2730,8 +2732,9 @@
 		<set name="blockingMove" value="false"/>
 		<set name="implemented" value="true" />
         <for>
+			<!-- 1.25 -->
 			<effect id="501200" time="15" count="1" type="BUFF" stackType="attack_speed_up" >
-				<mul stat="atkSpd" order="0x30" val="1.25" />
+				<mul stat="atkSpd" order="0x30" val="1.80" />
 			</effect>
 		</for>
     </skill>
