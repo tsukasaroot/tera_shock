@@ -75,9 +75,9 @@ public class HealCommand extends AbstractCommand
 					if(target == null)
 						return;
 
+					target.setStamina(target.getMaxStamina());
 					target.setCurrentHp(target.getMaxHp());
 					target.setCurrentMp(target.getMaxMp());
-					target.setStamina(target.getMaxStamina());
 
 					target.sendPacket(PlayerCurrentHp.getInstance(target, null, 0, PlayerCurrentHp.INCREASE), true);
 					target.sendPacket(PlayerCurrentMp.getInstance(player, null, 0, PlayerCurrentMp.INCREASE), true);

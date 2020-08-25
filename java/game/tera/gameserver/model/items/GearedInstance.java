@@ -48,14 +48,14 @@ public class GearedInstance extends ItemInstance
 				if (!isBinded())
 				{
 					if (showMessage)
-						player.sendMessage("Вы не связали с собой итем.");
+						player.sendMessage("Not enough elements.");
 
 					return false;
 				}
 				else if (!getOwnerName().equals(character.getName()))
 				{
 					if (showMessage)
-						player.sendMessage("Этот итем связан с другим игроком.");
+						player.sendMessage("This item is associated with another player.");
 
 					return false;
 				}
