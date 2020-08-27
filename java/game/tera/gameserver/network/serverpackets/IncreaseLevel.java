@@ -32,21 +32,28 @@ public class IncreaseLevel extends ServerPacket
 		if (player.getLevel() == 60 || player.getLevel() == 2) {
 			player.sendMessage("You reached lvl " + player.getLevel() + "! Here some starting equipment ! " + classId);
 			switch (classId) {
-				case 7:
+				case 7: // mystic
+					template = itemTable.getItem(10400);
 					break;
-				case 6:
+				case 6: // priest
+					template = itemTable.getItem(13260);
 					break;
-				case 5:
+				case 5: // archer
+					template = itemTable.getItem(10494);
 					break;
-				case 4:
+				case 4: // sork
+					template = itemTable.getItem(10493);
 					break;
-				case 3:
+				case 3: // berserk
+					template = itemTable.getItem(13217);
 					break;
-				case 2:
+				case 2: // slayer
+					template = itemTable.getItem(10267);
 					break;
-				case 1:
+				case 1: // lancer
+					template = itemTable.getItem(13303);
 					break;
-				case 0:
+				case 0: // warrior
 					template = itemTable.getItem(10489);
 					break;
 			}
