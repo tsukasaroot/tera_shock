@@ -14,6 +14,7 @@ import tera.gameserver.model.items.ItemInstance;
  *
  * @author Ronn
  */
+
 public class IncreaseLevel extends ServerPacket
 {
 	private static final ServerPacket instance = new IncreaseLevel();
@@ -22,57 +23,87 @@ public class IncreaseLevel extends ServerPacket
 	{
 		ItemTable itemTable = ItemTable.getInstance();
 		IncreaseLevel packet = (IncreaseLevel) instance.newInstance();
-		ItemTemplate template = null;
+		ItemTemplate templateWeapon = null, templateArmor1 = null, templateArmor2 = null, templateArmor3 = null,
+				templateEarring, templateRing, templateNecklace;
 
 		packet.objectId = player.getObjectId();
 		packet.subId = player.getSubId();
 		packet.level = player.getLevel();
+
 		int classId = player.getClassId();
 
-		if (player.getLevel() == 60 || player.getLevel() == 2) {
+		if (player.getLevel() == 60) {
 			player.sendMessage("You reached lvl " + player.getLevel() + "! Here some starting equipment ! " + classId);
 			switch (classId) {
 				case 7: // mystic
-					template = itemTable.getItem(10400);
+					templateWeapon = itemTable.getItem(10400);
 					break;
 				case 6: // priest
-					template = itemTable.getItem(13260);
+					templateWeapon = itemTable.getItem(13260);
 					break;
 				case 5: // archer
-					template = itemTable.getItem(10494);
+					templateWeapon = itemTable.getItem(10494);
 					break;
 				case 4: // sork
-					template = itemTable.getItem(10493);
+					templateWeapon = itemTable.getItem(10493);
 					break;
 				case 3: // berserk
-					template = itemTable.getItem(13217);
+					templateWeapon = itemTable.getItem(13217);
 					break;
 				case 2: // slayer
-					template = itemTable.getItem(10267);
+					templateWeapon = itemTable.getItem(10267);
 					break;
 				case 1: // lancer
-					template = itemTable.getItem(13303);
+					templateWeapon = itemTable.getItem(13303);
 					break;
 				case 0: // warrior
-					template = itemTable.getItem(10489);
+					templateWeapon = itemTable.getItem(10489);
 					break;
 			}
-			ItemInstance newItem = template.newInstance();
-			newItem.setAutor("GM_Create_Item");
-
-			Inventory inventory = player.getInventory();
-
-			if(inventory.putItem(newItem))
-			{
-				// получаем менеджера событий
-				ObjectEventManager eventManager = ObjectEventManager.getInstance();
-
-				// обновляемся
-				eventManager.notifyInventoryChanged(player);
+			if (classId == 0 || classId == 2 || classId == 5) { // leather class
+				templateArmor1 = itemTable.getItem(15554); // glove
+				templateArmor2 = itemTable.getItem(15553); // cuirass
+				templateArmor3 = itemTable.getItem(15555); // boots
+			} else if (classId == 1 || classId == 3) { // metal class
+				templateArmor1 = itemTable.getItem(15551); // gauntlets
+				templateArmor2 = itemTable.getItem(15552); // Greaves
+				templateArmor3 = itemTable.getItem(15550); // Hauberk
+			} else if (classId == 4 || classId == 6 || classId == 7) {
+				templateArmor1 = itemTable.getItem(18490); // sleeves
+				templateArmor2 = itemTable.getItem(18491); // shoes
+				templateArmor3 = itemTable.getItem(18489); // robes
 			}
+
+			templateEarring = itemTable.getItem(20365);
+			templateRing = itemTable.getItem(20129);
+			templateNecklace = itemTable.getItem(20725);
+
+			GiveAwayItem(templateArmor3, player);
+			GiveAwayItem(templateWeapon, player);
+			GiveAwayItem(templateArmor2, player);
+			GiveAwayItem(templateArmor1, player);
+			GiveAwayItem(templateEarring, player);
+			GiveAwayItem(templateRing, player);
+			GiveAwayItem(templateNecklace, player);
 		}
 
 		return packet;
+	}
+
+	private static void GiveAwayItem(ItemTemplate toCreate, Player player)
+	{
+		ItemInstance newItem = toCreate.newInstance();
+
+		newItem.setAutor("GM_Create_Item");
+
+		Inventory inventory = player.getInventory();
+
+		if (inventory.putItem(newItem))
+		{
+			ObjectEventManager eventManager = ObjectEventManager.getInstance();
+
+			eventManager.notifyInventoryChanged(player);
+		}
 	}
 
 	/** ид игрока */

@@ -58,8 +58,7 @@ public class ResourseIncreaseLevel extends ServerPacket
 			}
 
 			player.sendMessage("You have reached max level " + level + " for " + type + "! Here a gift!");
-		} else
-			player.sendMessage("Not inside");
+		}
 
 		return packet;
 	}
