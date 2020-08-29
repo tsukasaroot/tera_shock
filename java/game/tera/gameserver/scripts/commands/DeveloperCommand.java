@@ -1,14 +1,5 @@
 package tera.gameserver.scripts.commands;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
 import rlib.geoengine.GeoQuard;
 import rlib.logging.GameLoggers;
 import rlib.logging.Loggers;
@@ -16,6 +7,7 @@ import rlib.util.array.Array;
 import tera.gameserver.manager.DataBaseManager;
 import tera.gameserver.manager.EventManager;
 import tera.gameserver.manager.GeoManager;
+import tera.gameserver.manager.ShutdownManager;
 import tera.gameserver.model.World;
 import tera.gameserver.model.base.PlayerClass;
 import tera.gameserver.model.playable.Player;
@@ -26,10 +18,24 @@ import tera.gameserver.model.skillengine.funcs.StatFunc;
 import tera.gameserver.model.skillengine.funcs.stat.MathFunc;
 import tera.gameserver.model.skillengine.lambdas.FloatMul;
 import tera.gameserver.model.skillengine.lambdas.FloatSet;
-import tera.gameserver.network.serverpackets.*;
+import tera.gameserver.network.serverpackets.CharState;
+import tera.gameserver.network.serverpackets.EventMessage;
+import tera.gameserver.network.serverpackets.SeverDeveloperPacket;
+import tera.gameserver.network.serverpackets.SystemMessage;
 import tera.gameserver.tables.NpcDialogTable;
 import tera.gameserver.tables.SkillTable;
 import tera.remotecontrol.handlers.LoadChatHandler;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+import static tera.gameserver.manager.ShutdownManager.*;
 
 /**
  * Обработчик команд для разработчиков.
@@ -343,6 +349,15 @@ public class DeveloperCommand extends AbstractCommand {
 				} catch(NumberFormatException e) {
 					Loggers.warning(getClass(), "error parsing " + values);
 				}
+			}
+			case "restart": {
+				restart(5);
+			}
+			case "shutdown": {
+				shutdown(5);
+			}
+			case "cancel": {
+				cancel();
 			}
 		}
 	}
