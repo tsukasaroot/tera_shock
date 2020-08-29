@@ -2934,7 +2934,7 @@ public final class Player extends Playable implements Nameable, Identified {
 
 		if(clear > 0) {
 			setKarma(getKarma() - clear);
-			sendMessage("Вы очистили " + clear + " кармы, у вас осталось " + getKarma() + ".");
+			sendMessage("You cleared " + clear + " karma, you have left " + getKarma() + ".");
 		}
 
 		if(!isPK()) {

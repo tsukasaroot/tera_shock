@@ -35,7 +35,7 @@ public class SpawnSummon extends AbstractSkill
 
 		if(spawn == null)
 		{
-			character.sendMessage("Этот суммон не реализован.");
+			character.sendMessage("This summon is not implemented.");
 			return;
 		}
 

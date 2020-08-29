@@ -28,7 +28,7 @@ public class ConterStrike extends Strike
 		
 		if(System.currentTimeMillis() - last > 1000)
 		{
-			attacker.sendMessage("Можно использовать только после успешного блока.");
+			attacker.sendMessage("Can only be used after a successful block.");
 			return false;
 		}
 		

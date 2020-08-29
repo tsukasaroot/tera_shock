@@ -734,7 +734,7 @@ public abstract class ItemInstance extends TObject implements Foldable
 		// если персонаж в движении
 		if (character.isMoving())
 		{
-			character.sendMessage("Нельзя поднимать во время движения.");
+			character.sendMessage("Cannot be looted while moving.");
 			return false;
 		}
 

@@ -472,7 +472,7 @@ public class EnchantItemDialog extends AbstractActionDialog {
 			case SOURCE_ITEM_INDEX: {
 
 				if(getConsume() != null || getAlkahest() != null) {
-					actor.sendMessage("Нужно очистить используемый предмет и alkshest.");
+					actor.sendMessage("Need to remove enigma to use the item and the alkahest.");
 					return;
 				}
 

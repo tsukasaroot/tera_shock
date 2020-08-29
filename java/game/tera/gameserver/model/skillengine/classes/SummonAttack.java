@@ -19,7 +19,7 @@ public class SummonAttack extends AbstractSkill
 	{
 		if(attacker.getSummon() == null)
 		{
-			attacker.sendMessage("У вас нет вызванных питомцев.");
+			attacker.sendMessage("You have no summoned pets.");
 			return false;
 		}
 

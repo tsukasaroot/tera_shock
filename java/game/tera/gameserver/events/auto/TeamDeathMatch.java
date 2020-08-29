@@ -291,7 +291,7 @@ public final class TeamDeathMatch extends AbstractAutoEvent {
 
 					Location location = points[Rnd.nextInt(0, points.length - 1)];
 
-					killed.sendMessage("Вы воскресните через 5 секунд.");
+					killed.sendMessage("You will be resurrected in 5 seconds.");
 					killed.setStamina(killed.getMaxStamina());
 					killed.setCurrentHp(killed.getMaxHp());
 					killed.setCurrentMp(killed.getMaxMp());

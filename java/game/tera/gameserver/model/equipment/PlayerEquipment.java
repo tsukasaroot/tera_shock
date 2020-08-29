@@ -63,7 +63,7 @@ public final class PlayerEquipment extends AbstractEquipment
 
 		if(owner.isBattleStanced())
 		{
-			owner.sendMessage("Нельзя одевать вещь в боевой стойке.");
+			owner.sendMessage("You cannot remove a thing in a combat stance");
 			return false;
 		}
 
@@ -98,7 +98,7 @@ public final class PlayerEquipment extends AbstractEquipment
 
 		if(owner.isBattleStanced())
 		{
-			owner.sendMessage("Нельзя снимать вещь в боевой стойке.");
+			owner.sendMessage("You cannot remove a thing in a combat stance.");
 			return false;
 		}
 

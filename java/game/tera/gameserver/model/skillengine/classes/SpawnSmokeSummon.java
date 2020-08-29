@@ -39,14 +39,14 @@ public class SpawnSmokeSummon extends AbstractSkill {
 		int consume = character.getMaxHp() * 20 / 100;
 
 		if(character.getCurrentHp() <= consume + 2) {
-			character.sendMessage("У вас не достаточно HP.");
+			character.sendMessage("You don't have enough HP.");
 			return;
 		}
 
 		SummonSpawn spawn = getspawn();
 
 		if(spawn == null) {
-			character.sendMessage("Этот суммон не реализован.");
+			character.sendMessage("This summon is not implemented.");
 			return;
 		}
 

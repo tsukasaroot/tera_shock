@@ -237,7 +237,7 @@ public abstract class AbstractSkill implements Skill
 			// если итемов не хватает
 			if(template.getItemCountConsume() > count)
 			{
-				attacker.sendMessage("У вас недостаточно необходимых вещей в инвенторе.");
+				attacker.sendMessage("You do not have enough necessary items in the inventory.");
 				return false;
 			}
 		}

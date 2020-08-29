@@ -47,7 +47,7 @@ public class GuildInviteAction extends PlayerAction
 		actor.updateGuild();
 
 		// сообщаем о вступлении человека в гильдию
-		player.sendMessage("Вы вступили в \"" + guild.getName() + "\"!");
+		player.sendMessage("You entered \"" + guild.getName() + "\"!");
 	}
 
 	@Override

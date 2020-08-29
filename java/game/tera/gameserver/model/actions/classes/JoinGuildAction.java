@@ -222,9 +222,9 @@ public class JoinGuildAction extends SafeTask implements Action, Foldable
 			Player[] array = members.array();
 
 			for(int i = 0, length = members.size(); i < length; i++)
-				array[i].sendMessage("Создание клана прервано из-за не согласия всех участников группы.");
+				array[i].sendMessage("Clan creation was interrupted due to disagreement of all group members.");
 
-			actor.sendMessage("Создание клана прервано из-за не согласия всех участников группы.");
+			actor.sendMessage("Clan creation was interrupted due to disagreement of all group members.");
 		}
 		finally
 		{
