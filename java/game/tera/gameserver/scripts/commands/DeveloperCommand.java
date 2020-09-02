@@ -351,10 +351,12 @@ public class DeveloperCommand extends AbstractCommand {
 				}
 			}
 			case "restart": {
-				restart(5);
+				int delay = Integer.parseInt(values);
+				restart(delay);
 			}
 			case "shutdown": {
-				shutdown(5);
+				int delay = Integer.parseInt(values);
+				shutdown(delay);
 			}
 			case "cancel": {
 				cancel();
