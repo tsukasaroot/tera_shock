@@ -349,17 +349,21 @@ public class DeveloperCommand extends AbstractCommand {
 				} catch(NumberFormatException e) {
 					Loggers.warning(getClass(), "error parsing " + values);
 				}
+				break;
 			}
 			case "restart": {
 				int delay = Integer.parseInt(values);
 				restart(delay);
+				break;
 			}
 			case "shutdown": {
 				int delay = Integer.parseInt(values);
 				shutdown(delay);
+				break;
 			}
 			case "cancel": {
 				cancel();
+				break;
 			}
 		}
 	}
