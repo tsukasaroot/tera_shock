@@ -34,6 +34,12 @@ public class WorldCommand extends AbstractCommand
 			case "loc":
 				if(values == null || values.isEmpty()) {
 					player.sendMessage("Char: " + player.getName() + " Location X: " + player.getX() + "  Y: " + player.getY() + "  Z: " + player.getZ() + " heading: " + player.getHeading());
+				} else if (values.length() == 2) {
+					player.sendMessage(
+							"\n--loc file index name type (Will create a new territory header in given file)\n"+
+									"--loc file (to create a new point in the file)\n"+
+									"--loc file -t (to end the ongoing territory in the file)"
+					);
 				} else {
 					String[] argloc = values.split(" ");
 					player.sendMessage("Char: " + player.getName() + " Location X: " + player.getX() + "  Y: " + player.getY() + "  Z: " + player.getZ() + " heading: " + player.getHeading());
@@ -53,13 +59,18 @@ public class WorldCommand extends AbstractCommand
 								}
 							} else if (argloc.length == 1) {
 								myWriter.append("\t\t<point x=\"").append(String.valueOf(player.getX())).append("\" y=\"").append(String.valueOf(player.getY())).append("\" z=\"").append(String.valueOf(player.getZ())).append("\" />\n");
-							} else {
+							} else if (argloc.length == 4) {
 								myWriter.append("\t<territory id=\"").append(String.valueOf(Integer.parseInt(argloc[1])));
 								myWriter.append("\" name=\"").append(argloc[2]).append("\" type=\"").append(argloc[3]);
 								myWriter.append("\" centerX=\"").append(String.valueOf(player.getX())).append("\" centerY=\"").append(String.valueOf(player.getY()));
 								myWriter.append("\" centerZ=\"").append(String.valueOf(player.getZ())).append("\" minZ=\"").append(String.valueOf(minZ));
 								myWriter.append("\" maxZ=\"").append(String.valueOf(maxZ)).append("\" continentId=\"").append(Integer.toString(continent)).append("\"/>\n");
-							}
+							} else
+								player.sendMessage(
+										"\n--loc file index name type (Will create a new territory header in given file)\n"+
+										"--loc file (to create a new point in the file)\n"+
+										"--loc file -t (to end the ongoing territory in the file)"
+								);
 							myWriter.close();
 						} catch (IOException e) {
 							e.printStackTrace();
