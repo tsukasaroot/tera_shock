@@ -88,7 +88,7 @@ public class ReplyEventReward extends AbstractReply
 			int val = player.getVar(EventConstant.VAR_NANE_HERO_POINT, 0);
 
 			// если их не достаточно, выходим
-			if(val < price)
+			if(val > price)
 				player.sendMessage("You don't have Fame points");
 			else
 			{

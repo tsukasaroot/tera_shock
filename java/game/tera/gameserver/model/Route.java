@@ -20,10 +20,10 @@ public final class Route
 	private boolean local;
 
 	/**
-	 * @param index номер маршрута.
-	 * @param price цена маршрута.
-	 * @param target целевой город.
-	 * @param local является ли локальным.
+	 * @param index number of the road.
+	 * @param price price.
+	 * @param target City target.
+	 * @param local Is it local.
 	 */
 	public Route(int index, int price, TownInfo target, boolean local)
 	{

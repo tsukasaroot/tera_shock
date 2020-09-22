@@ -86,7 +86,6 @@ public class NpcCommands extends AbstractCommand
 
 					npc.getAI().startCast(skill, npc.calcHeading(player.getX(), player.getY()), player.getX(), player.getY(), player.getZ());
 				}
-
 				break;
 			}
 			case "around_npc_spawn":
